@@ -1,0 +1,101 @@
+Q1. Write a query to fetch the EmpFname from the EmployeeInfo table in upper case and use the ALIAS name as EmpName.
+>> SELECT EmpFname AS UPPER(EmpName) FROM EmployeeInfo;
+
+Q2. Write a query to fetch the number of employees working in the department ‘HR’.
+>>SELECT COUNT(*) FROM EmployeeInfo WHERE Department = 'HR';
+
+Q3. Write a query to get the current date.
+>> SELECT SYSTDATE();
+
+Q4. Write a query to retrieve the first four characters of  EmpLname from the EmployeeInfo table.
+>> SELECT SUBSTRING(EmpLname, 1, 4) FROM EmployeeInfo;
+
+Q5. Write a query to fetch only the place name(string before brackets) from the Address column of EmployeeInfo table.
+>> SELECT MID(Address, 0, LOCATE('(',Address)) FROM EmployeeInfo;
+
+Using SUBSTRING
+
+>> SELECT SUBSTRING(Address, 1, CHARINDEX('(',Address)) FROM EmployeeInfo;
+
+Q6. Write a query to find all the employees whose salary is between 50000 to 100000.
+>> SELECT * FROM EmployeePosition WHERE Salary BETWEEN '50000' AND '100000';
+
+Q7. Write a query to find the names of employees that begin with ‘S’
+>> SELECT * FROM EmployeeInfo WHERE EmpFname ='S%';
+
+Q8. Write a query to fetch top N records.
+>> SELECT * FROM EmpPosition ORDER BY Salary DESC LIMIT N;
+
+Q9. Write a query to retrieve the EmpFname and EmpLname in a single column as “FullName”. The first name and the last name must be separated with space.
+>> SELECT CONCAT(EmpFname, ' ', EmpLname) AS 'FullName' FROM EmployeeInfo;
+
+Q10. Write a query find number of employees whose DOB is between 02/05/1970 to 31/12/1975 and are grouped according to gender.
+>> SELECT COUNT(*), Gender FROM EmployeeInfo WHERE DOB BETWEEN '02/05/1970 ' AND '31/12/1975' GROUP BY Gender;
+
+Q11. Write a query to fetch all the records from the EmployeeInfo table ordered by EmpLname in descending order and Department in the ascending order.
+>> SELECT * FROM EmployeeInfo ORDER BY EmpFname desc, Department asc;
+
+Q12. Write a query to fetch details of all employees excluding the employees with first names, “Sanjay” and “Sonia” from the EmployeeInfo table.
+>> SELECT * FROM EmployeeInfo WHERE EmpFname NOT IN ('Sanjay','Sonia');
+
+Q13. Write a query to fetch details of employees with the address as “DELHI(DEL)”.
+>> SELECT * FROM EmployeeInfo WHERE Address LIKE 'DELHI(DEL)%';
+
+Q14. Write a query to fetch all employees who also hold the managerial position.
+>> 
+SELECT E.EmpFname, E.EmpLname, P.EmpPosition 
+FROM EmployeeInfo E INNER JOIN EmployeePosition P ON
+E.EmpID = P.EmpID AND P.EmpPosition IN ('Manager');
+
+Q15. Write a query to fetch department-wise count of employees sorted by department’s count in ascending order.
+>>
+SELECT Department, count(EmpID) AS EmpDeptCount 
+FROM EmployeeInfo GROUP BY Department 
+ORDER BY EmpDeptCount ASC; 
+
+Q16. Write a query to calculate the even and odd records from a table.
+To retrieve the even records from a table, you have to use the MOD() function as follows:
+>> SELECT EmpID FROM (SELECT rowno, EmpID from EmployeeInfo) WHERE MOD(rowno,2)=0;
+
+Similarly, to retrieve the odd records from a table, you can write a query as follows:
+>> SELECT EmpID FROM (SELECT rowno, EmpID from EmployeeInfo) WHERE MOD(rowno,2)=1;
+
+Q17. Write a SQL query to retrieve employee details from EmployeeInfo table who have a date of joining in the EmployeePosition table.
+>>
+SELECT * FROM EmployeeInfo E  WHERE EXISTS 
+(SELECT * FROM EmployeePosition P WHERE E.EmpId = P.EmpId); 
+
+Q 18. Write a query to retrieve two minimum and maximum salaries from the EmployeePosition table.
+To retrieve two minimum salaries, you can write a query as below:
+
+>> 
+SELECT DISTINCT Salary FROM EmployeePosition E1  WHERE 2 >= (SELECTCOUNT(DISTINCT Salary)FROM EmployeePosition E2   WHERE E1.Salary >= E2.Salary) ORDER BY E1.Salary DESC;
+
+To retrieve two maximum salaries, you can write a query as below: 
+>>
+SELECT DISTINCT Salary FROM EmployeePosition E1  WHERE 2 >= (SELECTCOUNT(DISTINCT Salary) FROM EmployeePosition E2  WHERE E1.Salary <= E2.Salary) ORDER BY E1.Salary DESC;
+
+Q19.  Write a query to find the Nth highest salary from the table without using TOP/limit keyword.
+
+SELECT Salary FROM EmployeePosition E1 
+WHERE N-1 = (  SELECT COUNT( DISTINCT ( E2.Salary ) )  FROM EmployeePosition E2  WHERE E2.Salary >  E1.Salary );
+
+Q 20. Write a query to retrieve duplicate records from a table.
+>>
+SELECT EmpID, EmpFname, Department COUNT(*) 
+FROM EmployeeInfo GROUP BY EmpID, EmpFname, Department 
+HAVING COUNT(*) > 1;
+
+Q 21. Write a query to retrieve the list of employees working in the same department.
+>>
+Select DISTINCT E.EmpID, E.EmpFname, E.Department  FROM EmployeeInfo E, Employee E1 
+WHERE E.Department = E1.Department AND E.EmpID != E1.EmpID;
+
+Q22. Write a query to retrieve the last 3 records from the EmployeeInfo table.
+>>
+SELECT * FROM EmployeeInfo WHERE EmpID <=3 UNION SELECT * FROM
+(SELECT * FROM EmployeeInfo E ORDER BY E.EmpID DESC) 
+AS E1 WHERE E1.EmpID <=3;
+
+Q23. Write a query to display the first and the last record from the EmployeeInfo table.
+To display the first record from th

@@ -1,0 +1,16 @@
+Experts answers would be appreciated.
+Fiserv Selenium Interview Questions (Pune).
+
+1. What kind of design patterns can be used in the framework design?
+2. What are the best design pattern's can use in selenium and it's drawbacks? what design pattern was followed in your Project framework?
+3. When to use abstract/ interface in the framework. give examples with scenario.
+4. How can hide the code using abstraction in selenium?
+5. What is the necessity of chrome\geckodriver exe.
+6. How web driver communicates\receive with\from the browser.
+7. how to restrict instantiation of multiple classes at a time in execution.
+8. Write a method to find given string is an anagram if so return true\false using Junit. (please note this is not a palindrome question).
+9. What exception will occur for findElement and findElements when an element is not recognised.
+10. What is an interface and why interface need in java.
+11. What is the difference between abstract and interface?
+12. Tell me the pros of abstract and cons of an interface, Vice versa.
+13. How can we handle windows based popup in test scripts execution?

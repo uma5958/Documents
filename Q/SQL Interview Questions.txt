@@ -1,0 +1,174 @@
+SQL Interview Questions and Answer
+-------------------------------------------------------------------
+1. What is SQL?
+
+SQL stands for Structured Query Language. It is used to communicate with the database.
+--------------------------------------------------------------------
+ 2. What are types of SQL statements?
+
+There are five types of SQL statements available in Oracle.
+
+DDL – Data Definition Language Statements
+
+Create
+Alter
+Drop
+Truncate
+Rename
+
+DML – Data Manipulation Language Statements
+
+Select
+Insert
+Delete
+Update
+Merge
+Lock Table
+
+DCL – Data Control Language Statements
+
+Grant
+Comment
+Audit
+Analyze
+Revoke
+
+TCS – Transaction Control Statements
+
+Commit
+Rollback
+Savepoint
+SCS – Session Control Statements
+
+Alter Session
+Set Roll
+ -------------------------------------------------------------------
+3. What is JOIN and what are the types of JOIN?
+
+Join is the technique of DBMS to explain the relation between more than one tables. It also provide you scope to identify data with relation from different tables.
+
+Inner Join – An inner join retrieve the matched rows only.
+
+Outer Join – An outer join retrieve the matched rows from one table and all rows in other table
+                     
+Left Outer: Matched rows in the right table and all rows in the left table
+                   
+Right Outer: Matched rows in the left table and all rows in the right table
+                     
+Full Outer: All rows in all tables. It doesn’t matter if there is a match or not
+
+Self Join: It is the joining of the same table
+
+Cross Join: Cross join is the Cartesian join of multiple tables.
+ 
+-------------------------------------------------------------------
+4. What is difference between DELETE & TRUNCATE commands?
+
+Delete command removes the rows from a table based on the condition and it can be rolled back.
+
+Truncate will remove all the records from table. It will not accept any condition and it can’t be rolled back.
+--------------------------------------------------------------------
+
+5. What is trigger?
+
+Trigger is an event based SQL block. A trigger is invoked automatically when an associated DML statement or event(INSERT, DELETE or UPDATE) occurs.
+-------------------------------------------------------------------- 
+
+6. What are types of Constrain SQL?
+
+There are two types of constrain in SQL.
+
+Table level constraint
+Column level constraint
+ -------------------------------------------------------------------
+
+7. How to find 2nd largest value using single SQL query?
+
+SELECT MAX( salary )
+   FROM employee
+     WHERE salary < ( SELECT MAX( salary )
+   FROM employee );
+------------------------------------------------------------------- 
+
+8. How to find 2nd lowest value using single SQL query?
+
+SELECT MIN( salary )
+   FROM employee
+     WHERE salary > ( SELECT MIN( salary )
+   FROM employee );
+-------------------------------------------------------------------
+
+9. What is DDL and DML?
+
+DDL is Data Definition Language. It is used to define data structures. For example, create table, alter table etc.
+
+DML is Data Manipulation Language. It is used to manipulate data itself. For example, insert, update, delete etc.
+--------------------------------------------------------------------
+ 
+
+10. How to find 7th largest value using SQL query?
+SELECT salary from employee order by salary DESC
+ rownum = 7;
+------------------------------------------------------------------- 
+
+11. What is Primary key?
+
+Primary key of a table is the unique identifier of a row.
+
+It can’t be NULL.
+No two row can have same primary key.
+Every row must have primary key.
+-------------------------------------------------------------------- 
+
+12. What is Foreign Key?
+
+Foreign key is the references of other table primary key or Unique key.
+-------------------------------------------------------------------- 
+
+13. What is Unique Key?
+
+Unique key is the unique identifier of each row of a table. Database table can have multiple Unique Keys. Unique key could be a NULL value.
+--------------------------------------------------------------------
+ 
+
+14. What is a Composite Key ?
+
+When the combination of more than one rows represent the uniqueness of a table row, then combination of rows is called Composite Key.
+
+For example,
+ “Emp_ID” and “EMP_Code” in a table are combiningly represent the uniqueness of a row. These two column are called Composite Key.
+--------------------------------------------------------------------
+ 
+
+15. What is view?
+
+View is the virtual table. It stores the result of the select queries in the form of table in a memory location dynamically.
+--------------------------------------------------------------------
+ 
+
+16. What is a materialized view?
+
+Materialized view is type of view, but it can get updated on specific duration defined in the query. We can index materialized view.
+-------------------------------------------------------------------
+ 
+
+17. What is Index?
+
+Index is a unique optional structure associated with tables, which is used to speed-up the quer
+
+-------------------------------------------------------------------
+1. SQL query to find highest salary?
+
+SELECT name, MAX(salary) as salary FROM employee ;
+
+2. SQL query to find 2nd highest salary?
+
+Select name, MAX(salary) as salary from employee where salary < (select MAX(salary) from employee) ;
+
+3. SQL query to find nth highest salary?
+
+SELECT salary FROM employee ORDER BY salary desc limit n-1,1
+
+4. Get the maximum and minimum salary of all employees
+
+SELECT MAX(salary), MIN(salary) FROM employees;

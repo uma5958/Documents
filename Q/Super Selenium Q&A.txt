@@ -1,0 +1,46 @@
+THIS INTERVIEW QUESTION ARE SUPERRRR...
+
+1,What are AJAX calls?
+2.Difference between AJAX and JavaScript functions
+3.How to create authentication filters in spring security?
+4.Write a query to find third highest salary from the table
+5.Program to split two words (for instance: Split ’WORD’ into ‘WO’ and ‘RD’)
+6.How to join same two tables and return records\
+7.How are you handling exceptions in your project?
+8.What kind of validations you are using in your project
+9.How do you restrict a space in a text-box?
+
+1.Reverse of a string using objects and a blank space/some operators and not using temporary variable
+2.Write a query to eliminate the duplicate values in the table where the duplicates values are in UPPER CASE?
+
+3.Select Name Id from Table.. What will this query return
+4.How to get details from two tables whereas field name are same
+5.If we use sql injection from application to delete 10 records of a table. What will it return
+6.How do you provide security to your application which is deployed in your client's server
+7.How do you integrate third party tools in your application
+8.How do you deploy your code
+9.client side validation
+10.Which Module is difficult? related to your project
+11.How to do the Client Side Validation
+12.In HTML page having 100 records in a grid, how you will send this to service part?
+13.Having 3 different faculty roles, I need to show the records based on their role.How to do
+that?
+
+14.How will u roleback after deleting records in database
+15.Select Customer Salary from Table.. What will this query return
+16.What kind of filters you are using in your applicatio
+17.What are Static Classes
+18.Difference between REST & Json
+
+program
+
+19.Reverse the string
+Split the name for the given size (eg: kavin input=2 means, display ka,vi,n
+
+20.Reverse the string without extra space
+
+21.How to delete duplicate records in sql server
+22.How to improve SQL query performance
+23.How you make your application secure
+24.How you deploy your code in server
+25.what kind of authentication and authrization you are using in your application

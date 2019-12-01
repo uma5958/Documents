@@ -1,0 +1,20 @@
+Interview questions asked in cybage for manual testing
+
+Put your answer on comment section
+
+1. Difference between mobile application n web application testing
+2.Types of mobile application with examples
+3. Explain retrospective meeting in Agile
+4. Explain Test plan
+5. Explain Test strategies
+6. Explain Compatibility Testing
+7. Difference between smoke and sanity testing
+8. Interrupt testing during mobile application testing
+9.Explain cross browser testing
+10. How you used burp suit
+11. Questions on project domain- pension n hospitality
+12. If tomorrow will be ur project release , u r leading Ur team and u have 3 resources ,800 TC 's are pending for execution and 15 defects anr there ,and 1 resource is absent so how can u handle the situation ?
+13. Reasons Why developer reject some defects
+14. What is RTM
+15. Estimation techniques
+16 .SQL query -find the second highest salary in employee table

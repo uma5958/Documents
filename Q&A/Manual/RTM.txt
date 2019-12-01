@@ -1,0 +1,8 @@
+Q: What Is Requirement Traceability Matrix ?
+
+Requirements tracing, a process of documenting the links between the requirements and the work products 
+developed to implement and verify those requirements. 
+Requirement Traceability Matrix (RTM) is a document which records the mapping between the high-level requirements and the test cases in the form of a table. 
+The RTM captures all requirements and their traceability in a single document delivered at the conclusion of the life cycle.
+
+That’s how it ensures that the Test Plan covers all the requirements and links to their latest version.

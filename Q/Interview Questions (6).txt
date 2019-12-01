@@ -1,0 +1,76 @@
+#Cognizant #Hyderabad #Selenium #java #InterviewExperience #2Years 
+
+Almost 250-300 people attended the interview
+
+1st technical round:-
+
+1. Tell me about yourself
+2. What are the selenium components and which components are you using ?
+3. How do you inspect elements ? 
+4. What are those locaters ?
+5. Write a syntax for xpath ? 
+6. Write a syntax to initialise webdriver ?
+7. Explain absolute and relative xpath with example 
+8. Explain about your project and framework
+9. How do you get the data from excel sheet
+10. Where do you use java in selenium webdriver
+11. What is oops ?
+12. Explain abstraction concept with example
+13. Explain inheritance concept with example
+14. Explain method overloading and overriding with example
+15. Example inheritance with example
+16. What is interface ? Explain with live example
+17. Write a basic selenium script
+18. Explain defect life cycle
+19. Write a syntax to select value from drop-down
+20. Write syntax to get the text from table 
+21. What is hashmap and hashset ? Explain ?
+22. Where do you use hashmap ?
+23. What are the exception you get in selenium
+24. What is implicitly wait, explicitly wait, webdriver wait, thread.sleep
+25. Write syntax for webdriver wait
+26. Difference between implicitly, explicitly, webdriver wait and thread sleep
+27. Whiich framework are you using in your project
+28. Are you using any integration tool ? 
+29. What is Jenkins ? 
+30. Where do you upload test results ? 
+31. What is retesting and regression testing ?
+32. What is smoke testing? 
+33. How do you get know if the developer has fixed the issues or not ? 
+34. What are roles and responsibilities ?
+35. Which java & selenium version are you using ? 
+36. How do you handle if xpaths are changing dynamically ?
+37. Have you ever written test cases in your projects ?
+38. Asked Some selenium questions
+
+---> Cleared the first round and qualified for 2nd technical round
+
+2nd technical round:- 
+
+1. Tell me about yourself
+2. What is performance testing ? ( I have mentioned in my resume ) 
+3. For which functionality you did performance testing in your project ?
+4. What is response time ? 
+5. Which language do you use for appium testing ? ( I have mentioned in resume)
+6. Did you write test scripts for mobile automation
+7. Can we use same code in appium which is developed for web app ? 
+8. What is Jenkins ?
+9. What is layout in Jenkins?
+10. What is GIT & SVN ?
+11. difference between GIT & SVN 
+12. Does Jenkins requires local system for CI ?
+13. Asked some basic java questions 
+
+---> cleared 2nd round and qualified for HR round
+
+Filled application form which contains education details, current employment details, CTC details, Address, pan, aadhar number, phone number & email 
+
+3rd round : HR 
+
+1. Can you introduce yourself ?
+2. what are the tools you know except selenium ? 
+3. Where is your company located ?
+4. Where do you live ? 
+5. Where are from ?
+6. Graduation details, when did you joined in your current organization ? Notice period ? 
+7. You are expecting CTC ** okay fine.

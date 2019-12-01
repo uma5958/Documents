@@ -1,0 +1,15 @@
+Infogain  telephonic interview question
+1.Diff b/w Hashmap and hashtable?? In hashmap i want only keyvalues how to generate those???
+2.Explain implicit,explicit and fluent wait?
+3.How to handle web based popup??
+4.Diff b/w keyword driven and data driven framework?
+5.Java 1.8 features?
+6.Diff between getwindowHandle() and getwindowHandles()?what are the return types of those?
+7.JavascriptExecutor scenarios???
+8.Dataprovider use???what is return type of dataprovider???
+9.explain customize exceptions???? What r those??
+10.diff between throw and throws keyword  ???
+11. Runtime and compile time exception diff??which exceptions u got??
+12.main use of fluent wait?
+13.what are the locators???explain xpath??
+14.can we use comparison operators like &,//,>,< in xpath??

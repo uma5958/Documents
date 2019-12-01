@@ -1,0 +1,68 @@
+Interview Questions I faced in a recent interview. 
+
+Hope it will be helpful.
+
+1.How to Exclude test cases which don't want to run.
+
+2.how to Iterate Map.
+
+3. String str=" this is your order number 123456"
+
+How to fetch the only number from this string.
+
+4. how to handle steal element exception.what you will write in the catch block
+
+5. how to find 2 maximum number from the array.
+
+6.how to remove all space from the array.
+
+7.diffrence between ArrayList and Map
+
+8. If sendkeys is not working what you will do any other alternative?
+
+9. how to remove duplicate from the string.
+
+10.<div>
+
+<button id="sdf">
+
+<div id="vxvxcv">
+
+      </div>
+
+write XPath to find the first div.
+
+11. write code get all the links and click on every link.
+
+12. 5 Exception in selenium.
+
+13.Rest Assured code.
+
+14.sql query to find top 10 rows from the table.
+
+15. Advantage of cucumber framework 
+
+16. Other BBD tool apart from the cucumber.
+
+17 How to achieve parametrization in cucumber.
+
+18 how to get all link from a webpage
+
+19 how to get all broken link from the webpage
+
+20. how to find hidden elements from UI
+
+21.Use of robot class.  
+
+22.how to convert date in another formate .20192207- 2019-22-07
+
+23.WebDriver Listeners and TestNG Listeners
+
+24. Taking data from excel sheet is slow so what is the alternative.
+
+25.cucumber dependency is language-specific or not?
+
+26.Protector.?  
+
+27. testNG Annotation order.
+MON 08:

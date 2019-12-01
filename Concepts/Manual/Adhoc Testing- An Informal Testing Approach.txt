@@ -1,0 +1,52 @@
+@Adhoc Testing
+
+Adhoc Testing- An Informal Testing Approach
+
+
+Adhoc testing is an informal testing type, done with an aim to break the system. This testing is generally an unplanned and undocumented activity and is applied to early scientific experimental studies. It does not follow any type of test design techniques and thus does not require any test cases for performing the testing. The test is intended to be executed only once unless a defect is discovered. It is primarily performed if the knowledge of the tester is very high. It is a form of Black Box testing or behavioral testing.
+
+As discussed earlier, Adhoc testing does not follow any Documentation, Planning, and Process. Since this testing aims at finding defects through random approach, without any documentation, defects will not be mapped with any test cases. Hence sometimes it is very difficult to reproduce the defect as there are no steps or requirement mapped to the test cases. However, the string of Adhoc testing is that important, that defects can be found quickly. Adhoc testing is a type of error guessing, which itself is a light version of exploratory testing.
+
+When to perform Adhoc Testing
+
+When we are talking about Adhoc testing, then the very next question which arises is that, When we need to perform the Adhoc testing? And by whom it needs to be done?
+
+Adhoc testing can be done at any time of the application development cycle, whether at the beginning, middle or at the end. It is performed when there is limited time for performing elaborate testing. It is generally performed only after formal testing is done. And if time permits then Adhoc testing can be done on the system.
+
+Adhoc testing will be effective if the tester has the detailed knowledge of the system under test. So, tester performing the Adhoc testing should have much experience and is detail oriented. The experienced tester can found more defects as they are better in error guessing.
+
+Types of Adhoc testing
+
+Adhoc testing is further categories into 3 types:
+
+1. Buddy testing
+
+In Buddy testing, Two members work together on identifying defects in the same module of the application. Mostly one member will be from the development team and another member will be from the testing team. Buddy testing helps the tester in making better test cases and also helps the development team making the required design changes at the early stages of development. This testing generally happens after completion of unit testing.
+
+2. Pair Testing
+
+In the Pair testing, two testers from the testing team are assigned modules, share ideas and work on the same machine to find the defects. They basically divide the testing scenarios among themselves and works together. The main aim of this type of testing is to cover maximum test scenarios so that the module has a complete test coverage. Among them, one tester is responsible for executing the testing and another tester will act as a Scribe and will take notes of the findings and documentation. The pair testing is a combination of both experienced and inexperienced tester.
+
+3. Monkey Testing
+
+Monkey testing is a type of Adhoc testing, where the tester performs the testing of the application or system by giving random inputs and checking the application behavior. The main goal of this type of testing is to break the system. Monkey testing helps us to find undiscovered bugs which might not be caught earlier.
+
+Importance of Adhoc testing
+
+Though Adhoc testing is an unstructured and unplanned form of testing, still there exists a lot of benefits of Adhoc testing.
+
+Few of the importance of the Adhoc testing are listed below.
+
+1.It can be performed for the project will insufficient or limited software specification or requirements.
+2.It is beneficial when there is less time and a depth testing of the module is required. This helps in delivering the task with high quality and on time.
+3.Check for the completeness of testing
+Defect catching during Adhoc testing is added to planned test cases.
+4.Save much time as no formality is maintained.
+5.As it is an unstructured form of testing, so tester can emphasis more on testing the features of the module rather than focusing on the documentation part.
+6.This type of testing is not limited to the testers only, but also done by the development team and thus help in improving the code quality.
+7.It provides testers the freedom to implement new ways of testing the application and thus helps in finding undiscovered error or defects.
+8.It requires lesser level of preparation time.
+It can produce a quick result.
+
+#Conclusion
+Though there are different types of testing done for the different purpose of the evaluation of the application, sometime this types of informal, unplanned, unstructured and undocumented form of testing prove very helpful. As discussed, this types of testing are done by experienced testers having extensive knowledge of the product with the intent to break the system by finding undiscovered defects.

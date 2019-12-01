@@ -1,0 +1,19 @@
+Infosys(Bangalore) selenium interview questions faced recently 
+
+1. Can we create constructor as private?
+
+2. Can we override private methods ?
+
+3.Program to count occurrence of specific word in sentence
+
+4. Make xpath for locating specific column in dynamic webtable
+
+5. How to double click on element in selenium?
+
+6.how to switch from 5th frame to 4th frame in case if all are nested ?
+
+7.validate color of progressbar at different points for eg:- at 100% it becomes green and before that it remains orange so how will u validate that green color has appeared?
+
+8.How to click on last element always for a dynamic drop-down in which element change along  position and their count changes?
+
+9. Suppose I have three classes A, B and C where C extend B and B extend A, so can we call constructor of A from C by writing like super.super() is it correct?

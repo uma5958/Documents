@@ -1,0 +1,71 @@
+nterview Questions
+
+1. What are the components of Selenium
+Ram Swami:
+?
+2. Which version you are using and what addition features you see from the previous version?
+3. What is a WebDriver?
+4. How do you select you drivers to launch a url?
+5. Which method is used to fetch the driver?
+6. Which framework you are using? Explain in details and its benefit? What is POM?
+7. What is datadriven and keyword driven frameworks?
+8. What locators you are using?
+9. How do you explain the concept of object repository?
+10. What is the difference between findElement and findElements and what is return type? Give some example where it is used?
+11. Which method is used to get the text of an element?
+12. How do you fetch an attribute value of an element?
+13. When multiple checkboxes are there how do you check which one is checked previously?
+14. What is the return type of isSelected() method?
+15. What are the methods used to verify the existence of an object in a webpage?
+16. What is a Xpath difference between relative and absolute xpath?
+17. Read all axes scenarios of xpath like parent, following, ancestor, child and sibling.
+18. How to fetch an element when its attributes are changing frequently?
+19. What are the ways to click on a button?
+20. What are different types of wait (write the syntax)and explain the scenarios where you will use them?
+21. What are different types of exception in selenium?
+22. How do you handle exceptions selenium?
+23. There are 4 browsers open you have no idea where the required element is present . What will be your approach to find that element?
+24. What is the difference between getWindowhandles() and getWindowHandles()? What is its return type?
+25. Difference between Quit() and Close()?
+26. How do you handle an alert pop-up?
+27. How do you get the text inside a Alert?
+28. What is a Alert? Interface/class?
+29. How do you handle Frames in selenium?
+30. Give one example of method overloading concept used in Selenium? Ans : Switching to frames
+31. How do you select a dropdown value and what are the different methods are there?
+32. When your  Xpath is returning more than one matching values how will you handle it?
+33. Which is better Xpath/CSS? Why?
+34. How does u capture the screenshot? What is the best place to have the screenshot code?
+35. How do you connect Excel sheet? Write the code?
+36. Write the database connection code.
+37. How do you read and write a text file?
+38. How do you read and write a pdf file?
+39. What are the disadvantages of selenium?
+40. Give some scenarios where you cannot automate?
+41. What is the base class of exception?
+42. When you execution is failed how do you debug your code?
+43. How do you fetch the tile of a webpage?
+44. What are the methods used to verify the end result is achieved?
+45. How do you handle dynamic webtable? In cases you have no idea of how many rows of record will come , what should be the approach to handle this case?
+46. How to verify the broken images of a page?
+47. How to clear the cookies of the browser before start the execution?
+48. Write the code to maximize the window?
+49. Implementation of collection in your framework?
+50. Give a scenario where inheritance is used in your framework?
+51. Give a scenario where interface is used in your framework?
+52. Write a code using javascriptexecutor to scroll the webpage?
+53. How do you highlight an web element?
+54. What is use of property file in selenium?
+55. How do you handle multiple browser selection?
+56. What is used for reporting?
+57. What are the annotations used in TestNG? How it is difference from JUnit?
+58. Explain all annotations and its use?
+59. How do you priorities your test cases?
+60. Suppose you want to skip one test method during execution how you will do it?
+61. How cross browser testing is handled?
+62. What is the hierarchy of testNG.xml tags?
+63. Write the structure of testNG.xml file and explain?
+64. What is the difference between Assert and verify?
+65. What re the different methods of Assert?
+66. How do you store your testNG reports?
+67. How do you use parameters i

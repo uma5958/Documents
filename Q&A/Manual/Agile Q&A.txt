@@ -1,0 +1,217 @@
+AGILE METHODOLOGIES
+
+Question 1. An Agile Approach Advocates Which Of The Following Approaches?
+
+Answer :
+
+Get something business-valuable delivered as quickly as possible, consistent with the right level of quality.
+
+Question 2. What Is Agile Testing?
+
+Answer :
+
+Agile Testing is testing practice that follows the principles of agile software development. Agile testing involves all members of an agile team with special skills and expertise to ensure business value is delivered at frequent intervals.
+
+Question 3. In What Way Does The Agile Testing /development Methodology Differs From The Other Testing /development Methodologies?
+
+Answer :
+
+Anytime applying agile methodology, the testers /developers ensure that the whole process of testing /development is broke into as small steps as possible and just a small unit of code is tested /developed in each of this steps. The team of testers /developers is communicating consistently the results of their work, and changes the short term strategy and even the development plan on the go, based on the results of agile testing. Agile methodology encourages flexible and rapid response to change which should lead to a better end result.
+
+Question 4. How Is It Different To Traditional Waterfall Or The V Model?
+
+Answer :
+
+The big difference is that in agile environment, testing is not a phase; it is an activity parallel to development.
+
+In agile environment, small features of software are delivered frequently, so testing activity should be parallel to development activity. Testing time is short as we are only testing small features.
+In the waterfall model, there is a testing phase at the end of the development so, testing is a big effort done after the whole application is developed. Testing time is long as we have to test the whole application.
+
+Question 5. What Are The Different Methodologies In Agile Testing?
+
+Answer :
+
+There are various methods present in agile testing such as
+
+Scrum
+Crystal Methodologies
+DSDM (Dynamic Software Development Method)
+Feature driven development (FDD)
+Lean software development
+Extreme Programming (XP)
+
+
+Question 6. What Are The Benefits Of Agile Software Development?
+
+Answer :
+
+Agile methods grew out of the real-life project experiences of leading software professionals who had experienced the challenges and limitations of traditional waterfall development on project after project. The approach promoted by agile development is in direct response to the issue associated with traditional software development – both in terms of overall philosophy as well as specific processes.
+
+Question 7. What Is The Agile Manifesto?
+
+Answer :
+
+The agile software development emphasizes on four core values:
+
+Individual and team interactions over processes and tools.
+Working software over comprehensive documentation.
+Customer collaboration over contract negotiation.
+Responding to change over following a plan.
+
+Question 8. What Are Some Of The Key Features Of Agile Development?
+
+Answer :
+
+Some of the key features of agile development are
+
+Collective code ownership and freedom to change.
+Incremental approach (e.g. user stories are incrementally implemented). Automation (e.g. TDD -- Test Driven Development).
+Customer focused (for e.g. internal and external users and business analysts are your immediate customers).
+Design must be simple.
+Designing is an ongoing activity with constant re-factoring to achieve the rules of code simplicity like no duplication, verified by automated tests, separation of responsibilities, and minimum number of classes, methods, and lines.
+
+Question 9. What Is Scrum?
+
+Answer :
+
+Scrum is an innovative approach to getting work done in efficient way. It is iterative & incremental agile software development method. These iterations are time boxed with various iterations & each iteration is called Sprint. According to latest surveys Scrum is the most popular agile project management methodology in software development. The term Scrum is formed from Rugby.
+
+Scrum is ideally used where highly emergent or rapidly changing requirements. Scrum is basically worked on a self-organizing, cross-functional team. In the overall scrum team there is no team leader who assign the task to team rather whole scrum members work as a team & they decides the task on which they will work on. Also the problem will be resolve by team.
+
+Question 10. What Are The Three Main Roles In Scrum?
+
+Answer :
+
+The Scrum team consists of three main roles:
+
+Product Owner: Manages the product backlog. PO is the voice of the business and create new features to be developed for the application.
+
+Scrum Master: Responsible for managing the sprint, remove any impediments and keeps track of the progress of the project.
+
+Scrum Team itself: Composed of developers, designers and QA. This forms the team which is responsible for delivering high quality software.
+
+
+Question 11. What Is Sprint?
+
+Answer :
+
+Sprint is a predefined interval or the time frame in which the work has to be completed and make it ready for review or ready for production deployment. This time box usually lies between 2 weeks to 1 month. In our day to day life when we say that we follow 1 month Sprint cycle, it simply means that we work for one month on the tasks and make it ready for review by the end of that month.
+
+Question 12. Which Of The Following Best Describes The Approach For Determining The Iteration Length?
+
+Answer :
+
+The team should agree on the length of the iteration taking the size and complexity of the project into consideration.
+
+Question 13. As Product Owner, Which Of The Listed Guidelines Should You Follow While Creating The Product Backlog?
+
+Answer :
+
+Split high priority customer requirements that are too big into multiple smaller stories.
+Update the Product Backlog whenever the customer or development team comes up with new requirements.
+Prioritize the requirements based on business value and risk.
+
+Question 14. Mention The Key Difference Between Sprint Backlog And Product Backlog?
+
+Answer :
+
+Product backlog: It contains a list of all desired features and is owned by the product owner.
+
+Sprint backlog: It is a subset of the product backlog owned by development team and commits to deliver it in a sprint. It is created in Sprint Planning Meeting.
+
+Question 15. Which Scrum Artifact Helps In Tracking Progress?
+
+Answer :
+
+Sprint burn down chart.
+
+Question 16. Scrum Master Is Responsible For?
+
+Answer :
+
+The Scrum process being adopted and used properly.
+
+
+Question 17. Which Of These Advocates The Anti-gold-plating Mechanism Of Agile?
+
+Answer :
+
+Simplicity-the art of maximizing the amount of work not done-is essential.
+
+Question 18. What Is A Test Stub?
+
+Answer :
+
+A test stub is a bit of code that replaces an undeveloped or fully developed component within a system being tested. The test stub is built such that it mimics the actual component by generating specific known outputs. The stub can be used as a substitute for the actual (fully developed) component for testing purposes. The stub can also be used during testing to isolate system components and troubleshoot problems. A test stub is also known as a test double.
+
+Question 19. Describe A Situation When You Used Agile Methodology In Your Work, Or When You Belonged To The Team That Applied It Successfully?
+
+Answer :
+
+Mention the situation, the challenges you faced, and how agile approach helped to successfully achieve your goal. Try to talk about team work, and about the end result of your efforts–and how it benefited the employer, or the final product
+
+If you can not find anything to talk about from your professional career, think about something from personal life–though we do not typically realize it, we apply agile methodology in many everyday situations and interactions with other people.
+
+Question 20. Explain In Agile, Burn-up And Burn-down Chart?
+
+Answer :
+
+To track the project progress burn up and burn down charts are used
+
+Burn up Chart: It shows the progress of stories done over time.
+Burn down Chart: It shows how much work was left to do overtime.
+
+Question 21. What Is Dynamic Software Development Method (dsdm)?
+
+Answer :
+
+DSDM is a Rapid Application Development (RAD) approach to software development and provides an agile project delivery framework. The important aspect of DSDM is that the users are required to be involved actively, and the teams are given the power to make decisions. Frequent delivery of product becomes the active focus with DSDM.
+
+Question 22. Main Characteristics Of Agile Methodology?
+
+Answer :
+
+Every person can approach the question from their own view, and perhaps a software tester would give a different answer than a project manager.
+
+Nevertheless, you can list cross-functional team composition, face-to face communication, solving problems immediately after these are identified, and working solution as a primary metric of progress, as the main characteristics of agile development.
+
+Question 23. Can We Apply Agile Methodology To Other Areas And Projects?
+
+Answer :
+
+Employers try to understand if you see the real benefits of agile, and the practical application for various areas of their business.
+
+To say that the methodology can be (and perhaps even should be) applied anytime we have insufficient entry data, or when we work in an unknown area, or simply within a small team, or when many unpredictable variables play the role in the final outcome, would be a good answer. Bio-medicine, biochemistry or physics belong to the fields where we apply agile methodology ever more frequently.
+
+Question 24. In What Does The Agile Testing (development) Methodology Differ From The Other Testing (development) Methodologies?
+
+Answer :
+
+Anytime applying agile methodology, the testers (developers) ensure that the whole process of testing (development) is broke into as small steps as possible and just a small unit of code is tested (developed) in each of this steps. The team of testers (developers) is communicating consistently the results of their work, and change the short term strategy and even the development plan on the go, based on the results of agile testing. Agile methodology encourages flexible and rapid response to change which should lead to a better end result.
+
+Question 25. What Is Re-factoring?
+
+Answer :
+
+Re-factoring is modifying existing code to improve its performance, readability, extensibility etc. The code’s functionality remains as it is.
+
+Question 26. What Are The Two Key Factors When Working As A Qa In An Agile Team?
+
+Answer :
+
+QA can add a lot of value to an agile team because of the different mindset. Testers can and should think about the different possible scenarios to test a story.
+
+However the most important asset that they can bring is:
+
+To prevent defect: A should advocate best practices along the way to prevent defects from entering the system in the first place.
+To provide fast feedback: It is important for developers to know if the new functionality works as expected and if regression tests pass, and they need that feedback quite quickly. QA should provide the results of the tests to developers as soon as possible.
+
+Question 27. What Are The Disadvantages Of Agile Models?
+
+Answer :
+
+In case of some software deliverables, especially the large ones, it is difficult to assess the effort required at the beginning of the software development life cycle.
+
+There is lack of emphasis on necessary designing and documentation.
+The project can easily get taken off track if the customer representative is not clear what final outcome that they want.
+Only senior programmers are capable of taking the kind of decisions required during the development process. Hence it has no place for newbie programmers, unless combined with experienced resources.

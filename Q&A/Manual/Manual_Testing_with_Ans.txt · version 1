@@ -1,0 +1,477 @@
+﻿1. What is difference between bug, error and defect?
+Bug and defect essentially mean the same. 
+It is the flaw in a component or system, which can cause the component or system to 
+fail to perform its required function. If a bug or defect is encountered during the 
+execution phase of the software development, it can cause the component or the system 
+to fail. On the other hand, an error is a human error, which gives rise to incorrect 
+result.
+
+2. Tell me about V model in manual testing.
+V model is a framework, which describes the software development life cycle activities 
+right from requirements specification up to software maintenance phase. Testing is 
+integrated in each of the phases of the model. The phases of the model start with 
+user requirements and are followed by system requirements, global design, detailed design, 
+implementation and ends with system testing of the entire system. 
+Each phase of model has the respective testing activity integrated in it and is 
+carried out parallel to the development activities. The four test levels used by 
+this model include component testing, integration testing, system testing and 
+acceptance testing.
+
+3. What are stubs and drivers in manual testing?
+Both stubs and drivers are a part of incremental testing. 
+There are two approaches, which are used in incremental testing, namely bottom up 
+and top down approach. Drivers are used in bottom up testing. They are modules, 
+which test the components to be tested. The look of the drivers is similar to the 
+future real modules. A skeletal or special purpose implementation of a component, 
+which is used to develop or test a component, that calls or is otherwise dependent 
+on it. It is the replacement for the called component.
+
+4. What is a Review?
+A review is an evaluation of a said product or project status to ascertain any 
+discrepancies from the actual planned results and to recommend improvements to 
+the said product. The common examples of reviews are informal review or peer review, 
+technical review, inspection, walkthrough, management review. 
+
+Test case review process is an important process to follow in software testing. 
+Test case ensures that each and every functionality mentioned in Software Requirement Specification is covered. 
+Test case should be effective and also follow the standards to write test case. 
+To success and completeness of any test cases every test case should be reviewed. 
+
+There are different types of test case review process:
+a. Self-review: It is done by the tester himself who has written the test cases. 
+He can verify whether all the requirements are covered or not by looking into SRS/FRD. 
+b. Peer review: It is done by another tester who hasn’t written those test cases but is familiar with 
+the system under test. Also known as Maker and Checker review. 
+c. Review by a supervisor: It is done by a team lead or manager who is superior to the tester who has 
+written the test cases and has great knowledge about the requirements and system under test.
+
+5. What is a test suite?
+A test suite is a set of several test cases designed for a component of a software or 
+system under test, where the post condition of one test case is normally used as the 
+precondition for the next test.
+
+6. What is boundary value analysis?
+A boundary value is an input or an output value, which resides on the edge of an 
+equivalence partition. It can also be the smallest incremental distance on either 
+side of an edge, like the minimum or a maximum value of an edge. Boundary value 
+analysis is a black box testing technique, where the tests are based on the boundary 
+values.
+
+7. What is compatibility testing?
+Compatibility testing is a part of non-functional tests carried out on the software 
+component or the entire software to evaluate the compatibility of the application 
+with the computing environment. It can be with the servers, other software, 
+computer operating system, different web browsers or the hardware as well.
+
+8. What is exact difference between debugging & testing?
+When a test is run and a defect has been identified. It is the duty of the developer 
+to first locate the defect in the code and then fix it. This process is known as 
+debugging. In other words, debugging is the process of finding, analysing and 
+removing the causes of failures in the software. On the other hand, testing consists 
+of both static and dynamic testing life cycle activities. It helps to determine that 
+the software does satisfy specified requirements and it is fit for purpose.
+
+9. Explain in short, sanity testing, ad-hoc testing and smoke testing.
+Sanity testing is a basic test, which is conducted if all the components of the 
+software can be compiled with each other without any problem. It is to make sure 
+that there are no conflicting or multiple functions or global variable definitions 
+have been made by different developers. It can also be carried out by the developers 
+themselves. Smoke testing on the other hand is a testing methodology used to cover 
+all the major functionality of the application without getting into the finer nuances 
+of the application. It is said to be the main functionality oriented test. 
+Ad hoc testing is different than smoke and sanity testing. This term is used for 
+software testing, which is performed without any sort of planning and/or documentation. 
+These tests are intended to run only once. However in case of a defect found it can be 
+carried out again. It is also said to be a part of exploratory testing.
+
+10. Explain performance testing.
+It is one of the non-functional types of software testing. Performance of software is 
+the degree to which a system or a component of system accomplishes the designated 
+functions given constraints regarding processing time and throughput rate. 
+Therefore, performance testing is the process to test to determine the performance of 
+software.
+
+11. What is integration testing?
+One of the software testing types, where tests are conducted to test interfaces 
+between components, interactions of the different parts of the system with 
+operating system, file system, hardware and between different software. 
+It may be carried out by the integrator of the system, but should ideally be 
+carried out by a specific integration tester or a test team.
+
+12. What is meant by functional defects and usability defects in general? Give appropriate example.
+We will take the example of ‘Login window’ to understand functionality and usability 
+defects. A functionality defect is when a user gives a valid user name but invalid 
+password and the user clicks on login button. If the application accepts the user 
+name and password, and displays the main window, where an error should have been 
+displayed. On the other hand a usability defect is when the user gives a valid user 
+name, but invalid password and clicks on login button. The application throws up an 
+error message saying “Please enter valid user name” when the error message should 
+have been “Please enter valid Password.”
+
+13. What is pilot testing?
+It is a test of a component of a software system or the entire system under the real 
+time operating conditions. The real time environment helps to find the defects in the 
+system and prevent costly bugs been detected later on. Normally a group of users use 
+the system before its complete deployment and give their feedback about the system.
+
+14. Explain statement coverage.
+It is a structure based or white box technique. Test coverage measures in a specific 
+way the amount of testing performed by a set of tests. One of the test coverage type 
+is statement coverage. It is the percentage of executable statements which have been 
+exercise by a particular test suite. The formula which is used for statement coverage is:
+Statement Coverage = Number of statements exercised Total number of statements * 100%
+
+15. What is regression testing?
+Regression testing is the testing of a particular component of the software or the 
+entire software after modifications have been made to it. The aim of regression 
+testing is to ensure new defects have not been introduced in the component or software, 
+especially in the areas where no changes have been made. In short, regression testing 
+is the testing to ensure nothing has changed, which should not have changed due to 
+changes made.
+
+16. What is system testing?
+System testing is testing carried out of an integrated system to verify, that the system 
+meets the specified requirements. It is concerned with the behavior of the whole system, 
+according to the scope defined. More often than not system testing is the final test 
+carried out by the development team, in order to verify that the system developed does 
+meet the specifications and also identify defects which may be present.
+
+17. What is the difference between retest and regression testing?
+Retesting, also known as confirmation testing is testing which runs the test cases that 
+failed the last time, when they were run in order to verify the success of corrective 
+actions taken on the defect found. On the other hand, regression testing is testing of 
+a previously tested program after the modifications to make sure that no new defects 
+have been introduced. In other words, it helps to uncover defects in the unchanged 
+areas of the software.
+
+18. Explain priority, severity in software testing.
+Priority is the level of business importance, which is assigned to a defect found. 
+On the other hand, severity is the degree of impact, the defect can have on the 
+development or operation of the component or the system.
+
+19. Explain the test case life cycle.
+On an average a test case goes through the following phases. The first phase of the 
+test case life cycle is identifying the test scenarios either from the specifications 
+or from the use cases designed to develop the system. Once the scenarios have been 
+identified, the test cases apt for the scenarios have to be developed. Then the test 
+cases are reviewed and the approval for those test cases has to be taken from the 
+concerned authority. After the test cases have been approved, they are executed. 
+When the execution of the test cases start, the results of the tests have to be recorded. 
+The test cases which pass are marked accordingly. If the test cases fail,  	
+defects have to be raised. When the defects are fixed the failed test case has to 
+be executed again.
+
+20. Explain is Validation?
+The process of evaluating software at the end of the software development process 
+to ensure compliance with software requirements. The techniques for validation are 
+testing, inspection and reviewing.
+
+21. What is Verification?
+The process of determining whether or not the products of a given phase of the 
+software development cycle meet the implementation steps and can be traced to the 
+incoming objectives established during the previous phase. The techniques for 
+verification are testing, inspection and reviewing.
+
+22. What is the difference between the QA and software testing?
+The role of QA (Quality Assurance) is to monitor the quality of the process to produce a 
+quality of a product. While the software testing, is the process of ensuring the final 
+product and check the functionality of final product and to see whether the final product 
+meets the user’s requirement.
+
+23. What is Testware?
+Testware is the subset of software, which helps in performing the testing of application.  
+It is a term given to the combination of software application and utilities which is 
+required for testing a software package.
+
+24. What is the difference between build and release?
+Build: It is a number given to Installable software that is given to testing team by the development team.
+Release: It is a number given to Installable software that is handed over to customer by the tester or developer.
+
+25.  Explain the steps for Bug Cycle?
+•	Once the bug is identified by the tester, it is assigned to the development manager in open status
+•	If the bug is a valid defect the development team will fix it and if it is not a valid defect, the defect will be ignored and marked as rejected
+•	The next step will be to check whether it is in scope, if it is happen so that, the bug is not the part of the current release then the defects are postponed
+•	If the defect or bug is raised earlier then the tester will assigned a DUPLICATE status
+•	When bug is assigned to developer to fix, it will be given a IN-PROGRESS status
+•	Once the defect is repaired, the status will changed to FIXED at the end the tester will give CLOSED status if it passes the final test.
+
+26.  What does the test strategy include?
+The test strategy includes introduction, resource, scope and schedule for test activities, 
+test tools, test priorities, test planning and the types of test that has to be performed.
+
+27.  Mention the different types of software testing?
+•	Unit testing
+•	Integration testing and regression testing
+•	Smoke testing
+•	Functional testing
+•	Performance testing
+•	White box and Black box testing
+•	Alpha and Beta testing
+•	Load testing and stress testing
+•	System testing
+
+28.   What is Agile testing and what is the importance of Agile testing?
+ Agile testing is software testing, which involves the testing of the software from 
+ the customer point of view.  The importance of this testing is that, unlike normal 
+ testing process, this testing does not wait for development team to complete the coding 
+ first and then doing testing. The coding and testing both goes simultaneously.  
+ It requires continuous customer interaction.
+
+It works on SDLC (Systems Development Life Cycle) methodologies, it means that the 
+task is divided into different segments and compiled at the end of the task.
+
+29.   What is Test case?
+Test case is a specific term that is used to test a specific element.  
+It has information of test steps, prerequisites, test environment and outputs.
+
+30.   What is the strategy for Automation Test Plan?
+•	The strategy for Automation Test Plan
+•	Preparation of Automation Test Plan
+•	Recording the scenario
+•	Error handler incorporation
+•	Script enhancement by inserting check points and looping constructs
+•	Debugging the script and fixing the issues
+•	Rerunning the script
+•	Reporting the result
+
+31.   What is quality audit?
+The systematic and independent examination for determining the quality of activities 
+is known as quality audit.  It allows the cross check for the planned arrangements, 
+whether they are properly implemented or not.
+
+32.   How does a server or client environment affect software testing?
+As the dependencies on the clients are more, the client or server applications are complex.
+The testing needs are extensive as servers, communications and hardware are interdependent. 
+Integration and system testing is also for a limited period of time.
+
+33.   What are the tools used by a tester while testing?
+•	Selenium
+•	Firebug
+•	OpenSTA
+•	WinSCP
+•	YSlow for FireBug
+•	Web Developer toolbar for firebox
+
+34.   Explain stress testing, load testing and volume testing?
+•	Load Testing: Testing an application under heavy but expected load is known as Load Testing.  Here, the load refers to the large volume of users, messages, requests, data, etc.
+•	Stress Testing: When the load placed on the system is raised or accelerated beyond the normal range then it is known as Stress Testing.
+•	Volume Testing:  The process of checking the system, whether the system can handle the required amounts of data, user requests, etc. is known as Volume Testing.
+
+35.   What are the five common solutions for software developments problems?
+•	Setting up the requirements criteria, the requirements of a software should be complete, clear and agreed by all
+•	The next thing is the realistic schedule like time for planning, designing, testing, fixing bugs and re-testing
+•	Adequate testing, start the testing immediately after one or more modules development.
+•	Use rapid prototype during design phase so that it can be easy for customers to find what to expect
+•	Use of group communication tools
+
+36.   What is a ‘USE’ case and what does it include?
+The document that describes, the user action and system response, for a particular functionality is known as USE case.  
+It includes revision history, table of contents, flow of events, cover page, special requirements, pre-conditions and post-conditions.
+
+37.   What is CRUD testing and how to test CRUD?
+CRUD testing is another name for Black Box testing.  CRUD stands for Create, Read, Update and Delete.
+
+38.   What is validation and verification in software testing?
+In verification, all the key aspects of software developments are taken in concern like code, specifications, 
+requirements and document plans.  Verification is done on the basis of four things list of issues, checklist, 
+walkthroughs and inspection meetings. Following verification, validation is done, it involves actual testing, 
+and all the verification aspects are checked thoroughly in validation.
+
+39.   What is thread testing?
+A thread testing is a top-down testing, where the progressive integration of components follows the 
+implementation of subsets of the requirements, as opposed to the integration of components by successively lower levels.
+
+40.   What is configuration management?
+It is a process to control and document any changes made during the life of a project.  Release control, 
+Change control and Revision control are the important aspects of configuration management.
+
+41.   What is Ad Hoc testing?
+It is a testing phase where the tester tries to break the system by randomly trying the system’s functionality.  
+It can include negative testing as well.
+
+42.      What is data-base testing? 
+Data base testing is segmented into four different categories.
+•	Testing of Data Integrity
+•	Testing of Data Validity
+•	Data base related performance
+•	Testing of functions, procedure and triggers
+
+43.   In database testing, what do we need to check normally?
+Normally, the things that we check in database testing are:
+•	Constraint Check
+•	Validation of a Field size
+•	Stored procedure
+•	Matching application field size to database
+•	Indexes for performance based issues
+
+44.      Explain what is data driven test?
+In a data-table, to test the multi numbers of data, data-driven test is used.  
+By using this it can easily replace the parameters at the same time from different locations.
+
+45.      What are joins and mention different types of joins?
+Join is used to display two or more than two table and the types of joins are:
+•	Natural Join
+•	Inner Join
+•	Outer Join
+•	Cross Join
+The outer join is divided again in two:
+•	Left outer join
+•	Right outer join
+
+46.      What are indexes and mention different types of indexes?
+Indexes are database objects and they are created on columns. To fetch data quickly they are frequently accessed. 
+Different types of indexes are:
+•	B-Tree index
+•	Bitmap index
+•	Clustered index
+•	Covering index
+•	Non-unique index
+•	Unique index
+Database Testing
+
+47.      While testing stored procedures what are the steps does a tester takes?
+The tester will check the standard format of the stored procedures and also it checks the 
+fields are correct like updates, joins, indexes, deletions as mentioned in the stored procedure.
+
+48.      How would you know for database testing, whether trigger is fired or not?
+On querying the common audit log you would know, whether, a trigger is fired or not. It is in audit log where you can see the triggers fired.
+
+49.      In data base testing, what are the steps to test data loading?
+Following steps need to follow to test data loading
+•	Source data should be known
+•	Target data should be known
+•	Compatibility of source and target should be checked
+•	In SQL Enterprise manager, run the DTS package after opening the corresponding DTS package
+•	You have to compare the columns of target and data source
+•	Number of rows of target and source should be checked
+•	After updating data in the source, check whether the changes appears in the target or not.
+•	Check NULLs and junk characters
+
+50. what is testing? Different types of testing.
+Ans- Testing- its an step by step procedure to verify the software/application's each functionality whether its working as per requirement or not.
+Types- whitebox(developer), blackbox(TE), greybox(TE), integration, system, UAT.
+
+51. why we do automation testing?
+Ans- Reasons- 
+	Manual testing of all work flows, all fields, all negative scenarios is time and cost consuming.
+	It is difficult to test for multi lingual sites manually.
+	Automation does not require human intervention. We can run automated test unattended(Overnight).
+	Automation increases speed of test execution.
+	Automation helps increase test coverage.
+	Manual testing can become boring and hence error prone.
+
+52. what is testing strategy?
+Ans- A Test Strategy document is a high level document and normally developed by project manager. 
+This document defines “Software Testing Approach” to achieve testing objectives. 
+The Test Strategy is normally derived from the Business Requirement Specification document.
+The Test Strategy document is a static document meaning that it is not updated too often. 
+It sets the standards for testing processes and activities and other documents such as the Test Plan draws its contents from those standards set in the Test Strategy Document.
+
+53. what is test plan document and explain the contents briefly.
+Ans- The Test Plan document is derived from the Product Description, Software Requirement Specification SRS, or Use Case Documents.
+The Test Plan document is usually prepared by the Test Lead or Test Manager and the focus of the document is to describe what to test, how to test, when to test and who will do what test.
+
+54. what are the different types of testing life cycle models, which type of testing model does your project follow?
+have you worked in agile methodology in any of your project?
+Ans- Types- Waterfall, Spiral/Iterative/Cycle, Prototype Model, Agile.
+My project is using Agile methodology.
+
+55. Software requirements specification (SRS)
+A software requirements specification (SRS) is a detailed description of a software system to be 
+developed with its functional and non-functional requirements. The SRS is developed based the 
+agreement between customer and contractors. It may include the use cases of how user is going to 
+interact with software system. The software requirement specification document consistent of all 
+necessary requirements required for project development. To develop the software system we should have 
+clear understanding of Software system.
+
+56. Test Plan
+A document describing the scope, approach, resources and schedule of intended test activities. 
+It identifies amongst others test items, the features to be tested, the testing tasks, who will do 
+each task, degree of tester independence, the test environment, the test design techniques and 
+entry and exit criteria to be used, and the rationale for their choice, and any risks requiring 
+contingency planning. It is a record of the test planning process.
+
+a. Introduction:
+	Provide an overview of the test plan.
+	Specify the goals/objectives.
+	Specify any constraints.
+b. References:
+	List the related documents, with links to them if available, including the following:
+	Project Plan
+	Configuration Management Plan 
+c. Test Items:
+	List the test items (software/products) and their versions.
+d. Features to be Tested:
+	List the features of the software/product to be tested.
+	Provide references to the Requirements and/or Design specifications of the features to be tested
+e. Features Not to Be Tested:
+	List the features of the software/product which will not be tested.
+	Specify the reasons these features won’t be tested.
+f. Approach:
+	Mention the overall approach to testing.
+	Specify the testing levels [if it’s a Master Test Plan], the testing types, and the testing methods [Manual/Automated; White Box/Black Box/Gray Box]
+g.Item Pass/Fail Criteria:
+	Specify the criteria that will be used to determine whether each test item (software/product) has passed or failed testing.
+h.Suspension Criteria and Resumption Requirements:	
+	Specify criteria to be used to suspend the testing activity.
+	Specify testing activities which must be redone when testing is resumed.
+i. Test Deliverables:
+	List test deliverables, and links to them if available, including the following:
+	Test Plan (this document itself)
+	Test Cases
+	Test Scripts
+	Defect/Enhancement Logs
+	Test Reports 
+j.Test Environment:
+	Specify the properties of test environment: hardware, software, network etc.
+	List any testing or related tools.
+h.Estimate:
+	Provide a summary of test estimates (cost or effort) and/or provide a link to the detailed estimation.
+i.Schedule:
+	Provide a summary of the schedule, specifying key test milestones, and/or provide a link to the detailed schedule.
+j.Staffing and Training Needs:
+	Specify staffing needs by role and required skills.
+	Identify training that is necessary to provide those skills, if not already acquired.
+k.Responsibilities:
+	List the responsibilities of each team/role/individual.
+l.Risks:
+	List the risks that have been identified.
+	Specify the mitigation plan and the contingency plan for each risk.
+m.Assumptions and Dependencies:
+	List the assumptions that have been made during the preparation of this plan.
+	List the dependencies.
+n.Approvals:
+	Specify the names and roles of all persons who must approve the plan.
+	Provide space for signatures and dates. (If the document is to be printed)
+
+57. Software Testing Levels
+a.Unit Testing is a level of the software testing process where individual units/components of a software/system are tested. 
+The purpose is to validate that each unit of the software performs as designed.
+b.Integration Testing is a level of the software testing process where individual units are combined and tested as a group. 
+The purpose of this level of testing is to expose faults in the interaction between integrated units.
+c.System Testing is a level of the software testing process where a complete, integrated system/software is tested. 
+The purpose of this test is to evaluate the system’s compliance with the specified requirements.
+d.Acceptance Testing is a level of the software testing process where a system is tested for acceptability. 
+The purpose of this test is to evaluate the system’s compliance with the business requirements and assess whether it is acceptable for delivery.
+
+58.What is an Entry Criterion?
+Entry criterion is used to determine when a given test activity should start. 
+It also includes the beginning of a level of testing, when test design or when test execution is ready to start.
+
+Examples for Entry Criterion:
+    Verify if the Test environment is available and ready for use.
+    Verify if test tools installed in the environment are ready for use.
+    Verify if Testable code is available.
+	
+What is an Exit Criterion?
+Exit criterion is used to determine whether a given test activity has been completed or NOT. 
+Exit criteria can be defined for all of the test activities right from planning, specification and execution.
+Exit criterion should be part of test plan and decided in the planning stage.
+
+Examples of Exit Criterion
+    Verify if All tests planned have been run.
+    Verify if the level of requirement coverage has been met.
+    Verify if there are NO Critical or high severity defects that are left outstanding.
+    Verify if all high risk areas are completely tested.
+    Verify if software development activities are completed within the projected cost.
+    Verify if software development activities are completed within the projected timelines.

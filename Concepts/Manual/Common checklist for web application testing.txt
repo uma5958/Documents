@@ -1,0 +1,24 @@
+Common checklist during UI testing of Web application
+
+Verify following scenarios: 
+
+1. Font styles - Font size, color, family
+2. CSS properties of an element
+3. Images if they are not breaking
+4. Elements are not breaking or distorted on different browsers and screen resolutions
+5. Text for labels is clearly readable
+6. Error and validation messages are displaying correctly
+7. No spelling mistakes for field labels, any headings on the web pages
+8. Links are visible and distinguished from other text
+9. Social networking icons are rightly placed on sites
+10. No broken links on the web page
+11. No unnecessary blank space between the elements on web page
+12. Horizontal and vertical scrollbars are appearing wherever necessary
+13. Site logo is visible and clickable
+14. Web elements are not overlapping anywhere on web page
+15. Privacy policy links are readable and clickable
+16. Elements in drop down are not overlapping with each other
+17. Menu or sub menu that is selected remains highlighted
+18. Country codes are displayed correctly  
+19. If there are any maps on the site, check if the user is able to zoom in and zoom out the map without any UI distortion. 
+20. For any reports or charts check if the figures are visible appropriately

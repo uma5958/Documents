@@ -1,0 +1,65 @@
+#PrimeSoft #Hyderabad #Selenium #2Years
+
+I have attended this interview on 2nd January
+
+#TechnicalRound:
+
+1. Tell me about yourself
+2. What do you know about selenium
+3. Questions on string methods
+4. Questions on string arrays
+5. Explain your project
+6. Whats your roles and responsibilities
+7. Which framework do you use and explain it
+8. What is POM ?
+9. Did you write test cases ?
+10. Did you write test scripts for Android application
+11. Which framework do you use for mobile testing
+12. Explain about abstraction, polymorphism
+13. Some SQL queries
+14. How do you connect database through selenium script.
+15. Do you know about protractor, cucumber
+16. Questions on some core java concepts
+17. Questions on Testng and junit
+18. Do u have any questions for me ?
+
+Cleared first round..... was asked to come for 2nd round on next day.
+
+#ProjectManager:
+
+1. Explain about yourself
+2. Rate yourself on java 
+3. Rate yourself on selenium
+4. Do you know about performance testing ?
+5. What is response time
+6. Why do you capture response time
+7. Which tool do you use for performance testing
+8. Explain oops concepts with live examples 
+9. Write logic to get data from excel sheet
+10. Where do you store your test data
+11. Whats your current project and which framework
+12. What is testng and junit
+13. Questions on core java concepts
+14. How many test scripts
+ did you automate 
+15. Where do you maintain the code
+16. Where do you upload test results
+17. Whats your education qualifications ? 
+18. Whats your preferred location?
+19. Do you have any questions for me ? 
+
+Cleared manager round and HR told me that you have one more round with director.
+
+#DirectorRound: 
+
+1. What is java class explain with live example 
+2. Rate yourself on java
+3. Which languages do you know except java 
+4. What is java script
+5. Where are you from ? 
+
+6. Reason for job change...
+
+Director asking me the same question for almost 20 min.
+
+At last , he told me to leave for the day. HR will update you. But it's been 1 month yet to get response from them. I think they rejected me.

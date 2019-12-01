@@ -1,0 +1,145 @@
+#generally ask selenium_Interview_Questions :-
+
+ Selenium
+
+1.Write the syntax of drop down
+
+2.What is Webdriver-Java interface
+
+3.What is the current Version of Selinum webdriver
+
+4.How to get the text value from text box
+
+5.StrinG x="ABC";
+
+  String x="ab"; does it create two objects?
+
+6.write a program to compare the strings
+
+7.Class a
+
+{
+
+}
+
+class b extends a
+
+{
+
+}
+
+A a= new A();
+
+B b=new B();
+
+A a= new B();
+
+B a=new A();
+
+Which is valid and invalid?
+
+8.How to handle differnt type of pop up.(Wnidow,Alerts,Invisible popup)
+
+9.How to handle DropDown menu
+
+10. How to handle SSL certificate
+
+11.How to handle Google search text.
+
+12. How to handle dynamic text box which contains the 3 numbers, get
+
+the number and add the three number and add it other text box.
+
+13.How to handle Ajax Objects
+
+8.Explain webdriver architecture
+
+9.Explain File downloading
+
+10.Explain File attachments other that Auto IT
+
+11.Write the syntax for finding the row count in dynamic web table
+
+12.Differnece between class and Interface
+
+13. What type of class is the string class
+
+14.WHAT are the differnt methods that are used along with Xpath
+
+15.Explain Interface
+
+16 Explain Abstract
+
+17.What is selenum grid
+
+18 what is selenium RC
+
+19.Why is key word drivern frame work only choosen,
+
+1. how to handle dynamic object
+
+2. how to work with button which is in div tag and and u have to click
+
+without using xpath
+
+3. JVM is dependent or independent platform
+
+4.how many Test script you write in day
+
+5. describe your framework
+
+6. how to parameterized your junit
+
+7.how to handle ssl security
+
+8. how to handle window pops
+
+9. diffnct between implicit and explicit
+
+10.what are the types of assertion and what are assertion in junit
+
+11.How to handle ssl certificate
+
+12.What is dom concept
+
+13.What is the challenges u have faced during Automation
+
+14What is genrics
+
+15.What is synchronization
+
+Java
+
+1.JVM is dependent or independent platform
+
+2.diffn bw hashmap and hash set, set and linkedlist, arraylist and
+
+vector list , linkedhash set and hashset
+
+3.abstract and interface
+
+4.throw and throws
+
+5.how to split
+
+6.checked and unchecked exception
+
+7.how to work with azax aplication
+
+8.why sring is immutable
+
+9.wat is the retru ntype of getwindowhandles();
+
+10.what are the types of assertion and what are assertion in java
+
+11.differnce between interface and Abstract classes
+
+12.What is static varaible
+
+13.what is volitile
+
+14. what is trainsient
+
+15.what is the differnece between Final,Finalize and finally
+
+16.what is the differnce between Public,private and protected

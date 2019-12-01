@@ -1,0 +1,524 @@
+1. Write a program to take screenshot of a page and explain?
+
+Ans: File src = ((TakesScreenshot)dr).getScreenshotAs(OutputType.FILE);
+
+            FileUtils.copyFile(src, new File("D:\\Temp\\ss.png"));.  ...
+
+
+2. There are 4 frames in a page click the element present in each frame?
+
+Ans:  First get no.of frame 
+        int framecount=driver.findElements(By.tagName("iframe")).size();
+
+Then run a loop to go to each frame ad click.
+
+for(i=0; i<framecount;i++) {
+
+                        driver.switchTo().frame(i);
+
+                        driver..findElement(By.tagName(element to click)).click();
+
+
+}
+
+
+[Answer by Anomitro Munshi]
+
+
+3. Write xpath for radio button and check box.
+
+Ans: Use simple Xpath pattern.
+
+
+4. Why do you use TestNG and why not JUnit?
+
+Ans: TestNG have all the JUnit annotations along with few extra annotations(like: BeforeTest, BeforeSuit).
+
+
+5. How did u use runtime polymorphism in your project?
+
+Ans: runtime polymorphism is actually Overriding of methods. Say wherever u r using override concept in your project.
+
+[Answer by Anomitro Munshi]
+
+
+6. What is agile model and explain your involvement in scrum team?
+
+7. Explain the framework used in your project.
+
+8.What is the need to use jenkins?
+
+Ans:
+
+Running Selenium tests in Jenkins allows you to run your tests every time your software changes and deploy the software to a new environment when the tests pass.
+Jenkins can schedule your tests to run at specific time.
+You can save the execution history and Test Reports.
+Jenkins supports Maven for building and Testing a project in continuous integration.
+[Answer by Anomitro Munshi]
+
+
+
+
+9. Explain driver.quit()?
+
+Ans: Close all the browsers. [Answer by Anomitro Munshi]
+
+
+
+Explain the your current framework?
+
+While explaining the framework, in-between they will ask few questions about the framework.
+
+Like why this framework?
+
+Execution flow?
+
+1.How to integrate with TFS?
+
+Ans: Have not used this tool
+
+
+2.Benefits of Selenium?
+
+3.Benefits of Oops??
+
+4.What is polymorphism??
+
+5.What is dictionary ??
+
+6.How to handle AJAX elements?
+
+7.What is synchronisation?
+
+8.Difference between implicit wait and explicit wait?
+
+9.What is automation life cycle?
+
+10.What is framework?
+
+11.What is Nunit? Explain the capabilities of Nunit?
+
+12.Write a script to open the Firefox without using FirefoxDriver class
+
+Ans: Runtime.getRuntime().exec("C:\\Program Files\\Mozilla Firefox\\firefox.exe");  [Answer by Anomitro Munshi]
+
+
+13.How to take the screen shot of webelement?
+
+Ans: We can get the element screenshot by cropping entire page screenshot as below:
+
+driver.get("http://www.google.com");
+WebElement ele = driver.findElement(By.id("hplogo"));
+
+// Get entire page screenshot
+File screenshot = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+BufferedImage  fullImg = ImageIO.read(screenshot);
+
+// Get the location of element on the page
+Point point = ele.getLocation();
+
+// Get width and height of the element
+int eleWidth = ele.getSize().getWidth();
+int eleHeight = ele.getSize().getHeight();
+
+// Crop the entire page screenshot to get only element screenshot
+BufferedImage eleScreenshot= fullImg.getSubimage(point.getX(), point.getY(),
+   eleWidth, eleHeight);
+ImageIO.write(eleScreenshot, "png", screenshot);
+
+// Copy the element screenshot to disk
+File screenshotLocation = new File("C:\\images\\GoogleLogo_screenshot.png");
+FileUtils.copyFile(screenshot, screenshotLocation);
+
+
+14.How to verify to verify whether the element is present or not using findElements method
+
+Ans: if(driver.findElements(By.xpath("value")).size() != 0){
+System.out.println("Element is Present");
+}else{
+System.out.println("Element is Absent");
+}
+
+
+15.Write a script to verify whether the check box is selected or not.
+
+Ans: WebElement checkbox = driver.findElement(By.id("checkboxId"));
+System.out.println("The checkbox is selection state is - " + checkbox.isSelected());
+
+if(!checkbox.isSelected())
+        checkbox.click();
+
+
+16.How to verify whether the list box is dropdown list or multi-select list.
+
+17.Difference between arraylist and linked list?
+
+18.Explain the vector??
+
+19.Difference between abstraction and encapsulation?
+
+20.Difference between protected and default access specifiers?
+
+21.What is single ton class ??
+
+22.Why POM??
+
+23.How to handle windows popup??
+
+
+
+1>WAP to Reverse Number
+
+2>WAP to count duplicate character in String
+
+3>WAP to count no of word in String
+
+4>WAP to reverse word of Character
+
+INPUT-I work in exilant
+
+output-I krow ni tnalixe;
+
+5>WAP to String is palindrome or not
+
+6>WAP to Swap to no with third variable and without third varialble
+
+7>WAP to remove duplicate element in Array
+
+I
+
+8>WAP to remove dulicate Character in String
+
+9>WAP to Bubble Sort
+
+10>WAP to insertion Sort
+
+11>WAP to Selection Sort
+
+12>WAP to Count vowels in String
+
+14>WAP to no is binaray or not
+
+15>WAP to no is factorial
+
+16>WAP to Find largest no in Array
+
+17>WAP reverse number
+
+18>WAP to find second no of arrayList
+
+19>WAP to Sort Array?
+
+
+
+1>Explain all Wait Statement in Selenium.
+
+2>WAP to reverse word of Character
+
+INPUT-I work in exilant
+
+output-I krow ni tnalixe;
+
+3>WAP to Count no of Character in String
+
+4>What is different throw throws finally final
+
+5>find no of link on the webpage and Verify the Title
+
+1>Draw frameWork Structure and explain
+
+2>Write Code how to fatch data from excel
+
+3>Write Code for reverse String
+
+4>Write the Code of Swapping without using third Variable.
+
+5>Explain OOp Concept
+
+6>what is buglifeCycle
+
+7>What is Smoke Testing
+
+8>what is Synity Testing
+
+9>What is reTesting and Regression Testing
+
+10>Explain WebDriver driver=new FirFoxDriver();
+
+
+
+1. Write a program for Armstrong number?
+
+2. Write selenium code for any of the daily activity you do and explain.
+
+3. In a webpage, many frames are present. Frame number , frame name and element in frames are dynamic. If element is present in frame click that and come out . Or else search in other frame. Write a code..
+
+4. Some cases are independent and some cases are dependent on other cases. How do you execute them parallel.
+
+5. What are the versions of the browsers you test and what is your base browser.
+
+6. Explain the Testing procedure in your project.
+
+7. Why do you use Jenkins in your project.
+
+8. Explain the scrum process in your project
+
+
+
+1-can uh explain what uh have done so far as automation test engineer
+
+2-types of waits that uh knw.
+
+3-there is a check box if uh check the checkbox and element will be visible and if uh uncheck it it will be disappeared how will uh test it.
+
+4-there is a homepage whenever somebody login it shows welcome mess "welcome (Name of person)" how will uh test it.
+
+5-where did uh used encapsulation in your proj explain.
+
+6-where did uh used inheritance in ur proj
+
+7-types of inheritance.
+
+8-exception(full)
+
+9-there is a table if I ask uh to print total number of row present in table how will uh do that(code)
+
+10-how uh fetch the data from some external file explain code
+
+11-what is the difference between below 2 lines-
+
+String s1= "amit";
+
+String s2= new String("Amit");
+
+12- What is String?
+
+13- how can you say String is a class?
+
+14-how many ways to scroll a page?
+
+15-what and all things you can do using Actions class.
+
+16-jenkins (how to use,what it does)
+
+17-what strategy u follow to upload ur code in GitHub
+
+18-how to reverse an integer value.
+
+19-how to reverse a given string.
+
+20-how to reverse a given string.w without using for loop and any inbuilt methods.
+
+21-what is maven.
+
+22-what is testNG.
+
+23-if I want to run 10 test cases among 100 how will uh run it.
+
+24-how to perform parallel execution
+
+25-what strategy uh follow in order to choose locators for automating any test case
+
+26-what is pom,what strategy do uh follow while creating pom class.
+
+27- what and all opps concept u have used while automating application.
+
+28- if there is 2 names on webpage let's say amit and amit singh so how will uh point to amit.
+
+What does "anything or nothing" represents in Selenium?
+
+What are the different approaches you will follow to write an XPath?
+
+How do you get the size of an "dropdown" in Selenium?
+
+What will be your step by step approach to start the Automation Testing?
+
+
+
+1.Explain the framework you use in your project?
+
+2.What is there development life cycle in your project?
+
+3.Write a program for prime numbers?
+
+4.Identify the duplicates in an array and delete them?
+
+5.How do you perform smoke testing?
+
+6. What is the procedure you follow if you find any bug?
+
+7. How many regression cases are there and how frequently you execute them?
+
+8. How to configure automatic run of testcases in jenkins?
+
+9. There is a dropdown, on selecting one option sub dropdown will appear. Write code to verify all sub dropdowns are displayed properly for each option in main dropdown.( Ex: select India from dropdown and verify all the states are displayed in the Sundrop down).
+
+10. How to identify xpath...
+
+11. There is a 2x2 table . On first visit , first elements will be appear(a,b,c,d), on second visit 2nd element(e,f,g,h) in all the cells will appear. How do you identify the 2nd element in 4th cell (h)?
+
+12. How do you execute testcases parallelly?
+
+13. There 50 options are there in listbox. I don't want to select one option. Write a code.
+
+
+
+1. Login page with Username, pwd, confirm pwd, captcha, registration textboxes. Can we automate this page and how?
+
+2. Difference between read and readkey
+
+3. OOPS concept, Abstract Class and Interface
+
+4. Difference between Assert and Verify
+
+5. How to print the title and error message "User already exist" from a window popup
+
+6. Difference btn @BeforeClass & @BeforeTest
+
+7. How to take screenshot
+
+8. Type of locators
+
+9. Explain Selenium Grid
+
+10. Automation Framework
+
+11. How many jar files to be included in Selenium?
+
+12. Supported browsers in Selenium
+
+
+
+1>WAP to find no word of occurance in String.
+
+2>WAP to find Even and odd number in Array.
+
+3>WAP to print prime no 1 to 100;
+
+4>some objective question was there
+
+
+
+1>Tell me about your self
+
+2>WAP to find duplicate character in String
+
+3>What is polymephism
+
+4>why Interface?
+
+5>What is Maven
+
+6>What is collection?
+
+7>what is List and ArrayList?
+
+8>WHAT IS ALTER AND UPDATE
+
+9>WHAT IS METHOD OVERRIDING AND METHOD OVERLODING
+
+10>CAN STATIC METHOD OVERRIDE??
+
+
+
+1>what is different between String,Stringbuffer,StringBulider
+
+2>What is expception and Type of exception
+
+3>take class Employee store in Value in ArrayList and Sort.
+
+4>How will u differenceate Value in Map
+
+5>what is throws and throw
+
+
+
+1.Difference b/w Abstract class & Interface.
+
+2.Write a program to swap numbers without 3rd variable.
+
+3. Write a program to reverse string without using StringBuffer class
+
+3.Write a program to find string in another string.
+
+4.Why static is used in main method
+
+5.Difference between static binding & dynamic binding.
+
+6.Write a xpath of an element present in table by using its adjacent element 8. various annotations used in Testng.
+
+7.What methods can be inherited by child class. 10. Is it possible to override main method?.
+
+
+
+1. Write all end-end test scenarios for MobileApp-Navigation-Map
+
+2. Test data enumeration for Navigation Map
+
+3. U joined in Amazon for mobile app testing but app is already in production and there are no releases in feature/enhancements so how u will be helpful for ur team
+
+4. Did u missed any functionality/bug in ur project If yes how did u rectified.
+
+
+
+1. Automation project work -flow
+
+3. WAP to get all upper-case letters in a given String.
+
+4. WAP to find give triangle is isosceles triangle or not
+
+5. Analytical question
+
+
+
+1. Automation framework architecture
+
+2. How will you do automation for Amazon search feature ( If seach with some category how will u validate only those products)
+
+
+
+1. What is Webdriver?
+
+2. What is base class of Webdriver?
+
+3. Oops concept, inheritance , polymorphism.
+
+4. SQL queries. Joins.
+
+5. Difference between table and joins.
+
+6. Find max salary from employee table.
+
+7. Find min salary from employee table.
+
+8. What is difference between ceil and floor w.r.t database.
+
+9. Selenium Framework of your project.
+
+10. Structure/Hierarchy of Webdriver interface
+
+6. How to switch to frame?
+
+7. How to know if an element is present inside an iframe.
+
+8. Reverse a number without using any method.
+
+9. Print a triangle using java.
+
+10. There is a table and in on the column has "Siemens". Print row and column number containing "Siemens".
+
+11. Difference between POST and GET.
+
+12. How to automate API using postman.
+
+13. Difference between postman and soapui.
+
+14. You have three textbox and every text bio has different id. When user use sendKeys method, it is typing in one text box only. What mistakes user are doing?
+
+15. There is a website and when website is launched, multiple ads is shown up one by one. Every ad remains for 5 seconds. You are not aware how many ads will be shown but they will be on screen for 5 seconds. How you will wait till all ads are shown up.
+
+16. What are collection classes and interfaces you have used?
+
+17. Difference between Collection and Collections?
+
+18. Difficulties faced during API automation.

@@ -1,0 +1,46 @@
+#interviewExperience
+  Last month sat for Harman connected service -Automation tester role.
+Exp : 2-5 yrs
+Here are the questions.
+
+Round 1-Written  round
+- star pattern
+-Transpose matrix
+-some selenium mcq
+
+Round 2-F2F
+1.What is abstract class? Difference b/w abstract class and interface
+2.What is inheritance ? Show an example .
+3.Define overloading and overriding with example.
+4.What is Action class? Some methods of alert class.
+5.Wap to reverse a string.
+6. How u handle frames ?
+7. How u click when web driver click is not working.
+8.Wap to print frequency of all characters in a string..and print them in alphabetical order
+Input-BBCSAAJAQ
+Output
+AAA
+BB
+C
+J
+S
+Q
+
+9.Name some differnt annotations in TestNG.
+10.what is dataprovider in testNG? What is it's return type? Can u write  one example.
+11.write screenshot code. How u integrate screenshot code with testNG.
+12. What framework u use? Describe ur framework hierchy.
+
+Round 3- Managerial Round
+- introduce urself.
+-What methodology u use in ur project. 
+- smoke vs sanity vs regression .. difference
+- How many test case u automate each day?
+-how much manual testing u do..(i said 40% manual,60% automation)
+-can u join within 2 weeks? (No- i've to serve 3 months notice period. )
+
+He told our HR will contact u...and they nvr contacted  ??
+
+If u need any answers for the above questions ..comment ..i'll tell what I answered.O r u can google the answers.
+
+Thanks

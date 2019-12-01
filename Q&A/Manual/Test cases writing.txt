@@ -1,0 +1,31 @@
+#TestCases: Learn how to Write Effective Ones
+
+In order to verify that your software works as intended, you’ll obviously need to test it. In order to properly test a specific function or feature, test cases contain a list of actions. For many types of testing, whether it’s manual regression or automation, you need that set of instructions. To create a good test case, there are a few different approaches you might take, but there are certain standards that are worth considering.
+
+Today, we’re going to look at a few tips to help you write good, effective test cases.
+
+1. Make it simple and clear.
+
+Starting with the naming convention, which should make it easy to understand what the test case is intended to test, you should take your time and ensure that every aspect of the test case is easy to understand. It might need to be followed by a new tester, or form the basis of an automated script later down the line, so clarity is vital. Break everything down into simple, chronological steps so that someone with no knowledge of the project could run the test case.
+
+2. Consider the end user.
+
+You might be working on a requirements document, a user story or the application itself. In each case, you need to keep the end user at the forefront of your mind. How would they expect the software to work? What are they looking for from the function? How would they go about their task? Does it meet expectations?
+
+3. Think about prerequisites.
+
+Every aspect of the environment and the setup is important. Consider the tools to use, the operating system, the hardware, the data and the flow. You want to model the end user’s behavior and the final live environment that they’ll be using the software in, as closely as possible. In some cases, creating relevant test data will require a whole procedure in itself. Rather than referring to specific test data that might age, list criteria for creating relevant test data. You may also want to list other test cases as prerequisites.
+
+4. Explain the expected result.
+
+Ideally, every step of your test case will have an expected result attached. This makes it easy to verify each step and ensure coverage is complete. It should be clear to anyone working through this test case later what is supposed to happen at every step.
+
+5. Add supporting material.
+
+To help the tester understand exactly what they’re supposed to do and what the expected outcomes are, screenshots, additional explanations and videos are useful supplements. In many cases, it might be best to use a capture tool of some kind while you test. Recording keystrokes and environment details, or even entire exploratory test sessions, and breaking out relevant parts to use as the basis for test cases is a good way to make sure you aren’t forgetting anything.
+
+6. Think about the future.
+
+To get maximum value out of taking the time to write up a test case, it should be reusable. It’s important to take the time to avoid duplicating work. Test cases should call other test cases as prerequisites rather than cover the same ground. Sometimes you’ll be able to reuse test cases from one project to another. And for any test cases that need to be updated or retired, schedule in some review and maintenance time.
+
+The specifics of writing good, thorough test cases may vary from project to project, but these principles are always worth keeping in mind.

@@ -1,0 +1,76 @@
+Usability Testing for Mobile Application
+
+Usability Testing for Mobile Application is all about validating the user interaction with the mobile application and ensuring the great user experience of it. This means, mobile application should be easy to learn, easy to use, user-friendly, and less time consuming while operating. Again, the usability of mobile application depends on various factors: screen size, screen resolution, processing capabilities, etc. Since it is all about testing the sensitivity and comfort for the users of the application, it has to be normally performed by manual testers.
+
+Usability term is the combination of three factors which sets the goal for usability testing to achieve. They are:
+
+#Effectiveness: To measure the accuracy and completeness with which user reaches the goal effectively
+
+#Efficiency: To measure the time taken for the user to reach the goal effectively
+
+#Satisfaction: To measure the acceptance and comfort of use by the target users
+
+Traits of Usability Testing for Mobile
+
+#Application
+
+1.Testing methods and procedure should be well-defined
+2.Identify the tasks that have to be performed. Describe in detail the activities and practices to be followed
+3.Set up the required equipment: environment and tools
+Clearly set the area and scope of testing
+4.Decide on the methods to track the results. This helps in analyzing the outcome of the usability testing
+
+Usability Testing for Mobile Application – A list of possible tests
+
+This section of the article lists the possible tests that have to be performed as a part of Usability Testing for Mobile Application.
+
+This holds good for all type of mobile applications: Native app, Mobile Web, and Hybrid App.
+
+1.Verify the Responsiveness of the application logo and name when the application is being launched
+2.Verify the Responsiveness of the application logo and name within the application while it is running
+3.Verify each and every action gets the response from the application within 3 seconds
+4.Verify the exit functionality of the application while it is being run either in foreground or background
+5.Verify the Menu and Sub-Menu response in the screens of the application
+6.Verify that the navigation is easy across the application
+7.Verify the application representation with respect to screen orientation
+8.Verify that the single select and multiple select dropdowns are responsive
+9.Verify that the checkbox, radio buttons are clickable and responsive
+10.Verifying that the text box and text areas are clickable and allow the user to manually type the text within
+11.Verify that all the buttons have clarity and are readable across the application
+12.Verify that the button’s size is minimum and suitable for fingers
+13.Verify that the same button is placed at the common location in all the related screens of the application.
+14.Verify that the color of the button is the same in all related screens of the application. For example, the button OK should be green in color across the application. It should not be in different color on different screens. This is to ensure consistency of the buttons.
+15.Verify that the active and inactive buttons are distinguishable from each other
+16.Verify the error and warning messages are prompted properly
+17.Verify Zoom-in and Zoom-out features in the application
+18.Verify that the text is simple, visible, and clear across the application
+19.Verify that enough spacing is present between the elements (paragraphs, sentences, fields, etc) in all the screens of the application
+20.Verify the opening and closing of the application in all possible different stages
+21.Verify the language is correct across the application. No spelling and grammatical mistakes should be present
+22.Verify that the application synchronize according to user actions taken
+23.Verify that the content is precise and clear
+24.Verify that the minimal features are loaded in the application, i.e., the application is not loaded with excess features which results in complexity to use and the user might feel lost while exploring the application
+25.Verify that the application is displayed in user chosen language
+26.Verify the navigation to the application through notifications
+27.Verify user data is stored and accessible next time if the application has stopped due to unexpected errors.
+
+Usability Testing for Mobile Application is just not limited to the above list. Tester has to perform application-specific tests, if any, apart from above list, to ensure the complete coverage.
+
+Methods to conduct Usability Testing for Mobile Applications
+Usability Testing for Mobile Application can be conducted in two ways:
+
+1. Lab Method
+
+This is the widely popular method to perform Usability Testing for Mobile Applications. Here the individuals whose profile matches with the target users are selected to perform usability testing. This is the controlled activity and the facilitator would be in-charge of the entire phase. Here the selected individuals are bounded with the below components:
+
+#Recording Software: To record the moves within the application, which helps in analyzing the ease-of-use of the application
+#Webcam: To record the facial expression while using the application. This helps in analyzing which feature of the application is user-engaging
+#Test_Location: A proper ecosystem where the tests can be conducted successfully. It has to be equipped with proper infrastructure, complementing tools, and resources to carry out the tests effectively, accurately, and reliably
+#Test_Facilitator: With the approachable well experienced test facilitator, usability test can be effectively conducted without facing much issues regarding process and execution. He / She should be able to handle extreme situations and adverse outcomes during the entire phase
+
+2. Remote Testing
+Usability Testing for Mobile Application will be performed from remote locations by different people. Usually, real world, real users, and real devices come into the picture in this method of testing. This activity cannot be controlled and more effort is needed in evaluating the test outcomes.
+
+#Conclusion
+
+Usability Testing for Mobile Applications is the key for their success. If the mobile application’s usability fails, then there is high chances for the application to get uninstalled, which could result in negative ratings in the market. And if the mobile application’s usability succeeds, then it ensures the smooth and engaging experience with the application, which could result in more positive ratings in the market. Hence, there is absolutely no excuse to skip the Usability Testing for Mobile Applications if it has to succeed and remain intact in the market.

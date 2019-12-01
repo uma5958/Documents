@@ -1,0 +1,16 @@
+1. Does your all scrum team member always involved in each Sprint? or sometime its only few dev & few QA for particular sprint.    
+
+Ans:  I will decide this into two ways. 
+1) in daily stand up calls where the scrum master and Qa and Dev Folks will be part of and where they will provide update about their previous days work and any impediments observed during the sprint cycle. PO’s and stake holders might or might not be part of daily stand ups 
+
+2) when the end the sprint cycle we Demo the user stories covered during the sprint cycle to product owners and stake holders, in which entire scrum team will be present.
+
+===============================
+2. When you find a Bug what is the most important thing you do and how you approach it.
+
+Ans: when you find a bug the first and foremost important thing you should do is verify it against the requirements and confirm you can reproduce the bug by running multiple times. If you were able to reproduce it multiple times then you declare that it’s a bug. Else the categorisation of the bug is important if it occurs only in some conditions and will check the scope of the bug.
+
+=================================
+3. How often you release?
+
+And: It depends on organization to organization. Usually everyone will follow the incremental release process and final delivery/ release will be in 3 months or 6months. It depends on the organization and the product you are delivering.

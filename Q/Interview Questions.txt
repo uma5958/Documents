@@ -1,0 +1,75 @@
+#Testing #Conceptual #Questions
+1. What is a Smoke test?
+2. What is Sanity testing and Monkey testing?
+3. Defect Priority and severity with examples.
+4. What is Traceability matrix or RTM?
+5. Any idea about Integration testing?
+6. Explain V- Model,
+7. Defect density metrics and how to calculate it?
+8. How to calculate Defect leakage?
+9. Which tools have you used for defect management?
+10. Can we fail a Test step and link it to the defect in HPE ALM?
+11. What are the emerging terms that you hear regarding MANUAL testing only?
+12. Test Coverage and Test Complete.
+13. What’s a Test plan? And it’s components.
+14. Test cases for validating the login page.
+15. Explain defect/bug life cycle.
+16. What is the difference between ad-hoc and exploratory testing?
+17. What is re- testing and regression testing?
+18. What would you do if developer rejects your bug?
+19. What is your approach when client escalated saying that "a bug has been found during production"?
+20. What is QC and QA?
+21. What’s the difference between Smoke and Sanity testing?
+22. What is the difference between white box testing and unit testing?
+23. Explain boundary value analysis and equivalence partitioning.
+24. Explain Defect life cycle?
+25. SQL query to find Nth highest salary.
+26. Difference between SDLC AND STLC.
+27. What was the Database used for the product you tested?
+28. Operators used for decision table.
+29. Find issue in JIRA to avoid duplicate.
+30. Write Test cases to Test file transfer from one device to another device.
+31. Suppose Amazon over take Walmart. And Amazon doesn't want to make any change at the front of the website but it has changed the backend completely. What necessary testing will you perform?
+32. What is the difference when you test an App on Desktop and a Mobile?
+33. What is API testing?
+34. Methods of API testing?
+35. What is URI?
+36. What are SQL Joins and type of joins?
+37. Explain the project you worked on.
+38. What all testing tools have you used?
+39. Explain test case repository tool used.
+40. What all Testing process you followed.
+41. Explain Smoke, Sanity and Regression testing.
+42. Test cases for any real scenario.
+43. What is Performance testing and how it is done?
+44. What does left join do?
+45. Have you done any web service testing?
+46. What is testing and types of testing?
+47. Is Manual Testing required? If yes then why?
+48. What is a Bug and a Defect?
+49. Difference between http and https.
+50. Test plan and Test scripts.
+51. What is JIRA? Give me a real time example.
+52. Boundary value questions.
+53. Regression-Retesting.
+54. Which test design technique finds unreachable code?
+55. Types of black-box testing?
+56. Equivalence partition numerical type question.
+57. What is Beta testing and Acceptance testing?
+58. Test a Pen.
+59. Say we have Zomato/BMS/Redbus/MMT/Flipkart application - how do you test this? What are the scenarios you can come up with?
+60. Example of high priority low severity defect.
+61. Difference between Test strategy and Test planning.
+62. What is system testing vs system integration testing?
+63. Negative scenario of pen testing.
+64. How you work in agile.
+65. Why agile? What kind of meetings in agile.
+66. White box testing and Functional testing difference.
+67. Functional and Non-functional Testing difference.
+68. Entry and Exit criteria for testing.
+69. How to scale up the framework? If we want to append 1000 test cases to an existing framework.
+70. Can we fail a requirement in QC and attach the defect?
+71. Why do we need to write a Test case?
+72. What is Test cycle?
+73. What is Test bed?
+74. When should we need to do System testing?

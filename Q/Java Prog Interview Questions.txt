@@ -1,0 +1,9 @@
+1. WAP to Add 2 strings 10 & 20 & print the sum without using  Integer.parseInt();
+     2. WAP to convert a String into String Array?
+     3. Why do you use 2D array?
+     4. WAP to convert a String into Char Array?
+     5. WAP to find the length of a given string without using length().
+    6. WAP to pass multiple arguments in a single string argument.
+     7. Write a SQL query using both join & subquery.
+
+8. Write a script how did you implement synchronization.

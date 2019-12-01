@@ -1,0 +1,117 @@
+1. Write a program to take screenshot of a page and explain?
+2. There are 4 frames in a page click the element present in each frame?
+3. Write xpath for radio button and check box.
+4. Why do you use TestNG and why not JUnit?
+5. How did u use runtime polymorphism in your project?
+6. What is agile model and explain your involvement in scrum team?
+7. Explain the framework used in your project.
+8.What is the need to use jenkins?
+9. Explain driver.quit()?
+
+Explain the your current framework?
+While explaining the framework, in-between they will ask few questions about the framework.
+Like why this framework?
+Execution flow?
+1.How to integrate with TFS?
+2.Benefits of Selenium?
+3.Benefits of Oops??
+4.What is polymorphism??
+5.What is dictionary ??
+6.How to handle AJAX elements?
+7.What is synchronisation?
+8.Difference between implicit wait and explicit wait?
+9.What is automation life cycle?
+10.What is framework?
+11.What is Nunit? Explain the capabilities of Nunit? 
+12.Write a script to open the Firefox without using FirefoxDriver class 
+13.How to take the screen shot of webelement?
+14.How to verify to verify whether the element is present or not using findElements method 
+15.Write a script to verify whether the check box is selected or not. 
+16.How to verify whether the list box is dropdown list or multi-select list. 
+17.Difference between arraylist and linked list?
+18.Explain the vector??
+19.Difference between abstraction and encapsulation?
+20.Difference between protected and default access specifiers? 
+21.What is single ton class ??
+22.Why POM??
+23.How to handle windows popup??
+
+1>WAP to Reverse Number
+2>WAP to count duplicate character in String
+3>WAP to count no of word in String
+4>WAP to reverse word of Character 
+INPUT-I work in exilant
+output-I krow ni tnalixe;
+5>WAP to String is palindrome or not
+6>WAP to Swap to no with third variable and without third varialble
+7>WAP to remove duplicate element in Array
+I
+8>WAP to remove dulicate Character in String
+9>WAP to Bubble Sort
+10>WAP to insertion  Sort
+11>WAP to Selection  Sort
+12>WAP to Count vowels in String
+14>WAP to no is binaray or not
+15>WAP to no is factorial 
+16>WAP to Find largest no in Array 
+17>WAP reverse number
+18>WAP to find second no of arrayList
+19>WAP to Sort Array?
+
+1>Explain all  Wait Statement  in Selenium.
+2>WAP to reverse word of Character 
+INPUT-I work in exilant
+output-I krow ni tnalixe;
+3>WAP to Count no of Character in String
+4>What is different throw throws finally final
+5>find no of link on the webpage and Verify the Title
+
+1>Draw frameWork Structure and explain
+2>Write Code how to fatch data from excel
+3>Write Code for reverse String
+4>Write the Code of Swapping without using third Variable.
+5>Explain OOp Concept
+6>what is buglifeCycle
+7>What is Smoke Testing
+8>what is Synity Testing
+9>What is reTesting and Regression Testing
+10>Explain WebDriver driver=new FirFoxDriver();
+
+1. Write a program for Armstrong number?
+2. Write selenium code for any of the daily activity you do and explain.
+3. In a webpage, many frames are present. Frame number , frame name and element in frames are dynamic. If element is present in frame click that and come out . Or else search in other frame. Write a code..
+4. Some cases are independent and some cases are dependent on other cases. How do you execute them parallel.
+5. What are the versions of the browsers you test and what is your base browser.
+6. Explain the Testing procedure in your project.
+7. Why do you use Jenkins in your project.
+8. Explain the scrum process in your project
+
+1-can uh explain what uh have done so far as automation test engineer
+2-types of waits that uh knw.
+3-there is a check box if uh check the checkbox and element will be visible and if uh uncheck it it will be disappeared how will uh test it.
+4-there is a homepage whenever somebody login it shows welcome mess "welcome (Name of person)" how will uh test it.
+5-where did uh used encapsulation in your proj explain.
+6-where did uh used inheritance in ur proj
+7-types of inheritance.
+8-exception(full)
+9-there is a table  if I ask uh to print total number of row present in table how will uh do that(code)
+10-how uh fetch the data from some external file explain code
+11-what is the difference between below 2 lines-
+   String s1= "amit";
+   String s2= new String("Amit");
+12- What is String?
+13- how can you say String is a class?
+14-how many ways to scroll a page?
+15-what and all things you can do using Actions class.
+16-jenkins (how to use,what it does)
+17-what strategy u follow to upload ur code in GitHub
+18-how to reverse an integer value.
+19-how to reverse a given string.
+20-how to reverse a given string.w without using for loop and any inbuilt methods.
+21-what is maven.
+22-what is testNG.
+23-if I want to run 10 test cases among 100 how will uh run it.
+24-how to perform parallel execution
+25-what strategy uh follow in order to choose locators for automating any test case
+26-what is pom,what strategy do uh follow while creating pom class.
+27

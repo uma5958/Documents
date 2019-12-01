@@ -1,0 +1,9 @@
+Harman Questions for Exp
+1. Write a program for Armstrong number?
+2. Write selenium code for any of the daily activity you do and explain.
+3. In a webpage, many frames are present. Frame number , frame name and element in frames are dynamic. If element is present in frame click that and come out . Or else search in other frame. Write a code..
+4. Some cases are independent and some cases are dependent on other cases. How do you execute them parallel.
+5. What are the versions of the browsers you test and what is your base browser.
+6. Explain the Testing procedure in your project.
+7. Why do you use Jenkins in your project.
+8. Explain the scrum process in your project.
