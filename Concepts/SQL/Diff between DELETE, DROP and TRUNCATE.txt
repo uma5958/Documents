@@ -1,0 +1,47 @@
+What is the basic difference between DELETE, DROP and TRUNCATE .
+
+Go through below description , with sample hope u can understand better .
+
+DELETE:
+=========
+The DELETE Statement is used to delete rows from a table.
+
+Syntax of a SQL DELETE Statement
+
+DELETE FROM table_name [WHERE condition];
+
+NOTE: The WHERE clause in the sql delete command is optional and it identifies the rows in the column that gets deleted. If you do not include the WHERE clause all the rows in the table is deleted, so be careful while writing a DELETE query without WHERE clause.
+
+SQL DELETE Example
+
+To delete an employee with id 100 from the employee table, the sql delete query would be like,
+
+DELETE FROM employee WHERE id = 100;
+
+SQL TRUNCATE Statement
+======================
+The SQL TRUNCATE command is used to delete all the rows from the table and free the space containing the table.
+
+Syntax to TRUNCATE a table:
+
+TRUNCATE TABLE table_name;
+
+SQL TRUNCATE Statement Example
+
+To delete all the rows from employee table, the query would be like,
+
+TRUNCATE TABLE employee;
+
+SQL DROP Statement:
+==================
+The SQL DROP command is used to remove an object from the database. If you drop a table, all the rows in the table is deleted and the table structure is removed from the database. Once a table is dropped we cannot get it back, so be careful while using DROP command. When a table is dropped all the references to the table will not be valid.
+
+Syntax to drop a sql table structure:
+
+DROP TABLE table_name;
+
+SQL DROP Statement Example
+
+To drop the table employee, the query would be like
+
+DROP TABLE employee;

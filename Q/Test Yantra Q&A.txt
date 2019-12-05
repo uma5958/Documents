@@ -1,0 +1,13 @@
+TestYanthra interview questions.
+
+1. What is the drawback of POM model.
+2. If there is a logout button or navigate link, it is common in all the pages. In which page you locate this web Element. ?
+3. What is velocity in Agile. How do we calculate ??.
+4. On webElement is changing dynamically how will you handle. ?
+5. What kind of testing you do when we don't know the requirements properly ??.
+6. When we do UAT testing ??.
+7. What are the challenges you faced in Ur project.
+8. In your team if there are 4 testers , suddenly 3 people took unplanned leave , how will you handle these situations ?
+9. What is maven and pom.xml. what is the use ?
+10. What is continuous integration. How it is useful in Ur project.
+11 what is absolute Xpath and relative Xpath. Which one do you prefer to locate and why. ?

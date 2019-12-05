@@ -1,0 +1,27 @@
+Tek Systems interview questions.
+
+1. What is pagefactory and @findBy ? What is the use of these ?
+2 why we are creating constructor in PO class and test class ?? How it will communicate ??
+
+3 in the application there is a common operation button  click, logout, navigate.
+How will will you use this in the common utility class. Write the code ?
+
+4. If there is a millions of records , which one do you prefer List or set ? Why
+
+5 do we create the test plan in agile. If yes then when do we create ?
+
+6 there is an array 
+
+a[  ] = {1, 3, -2, -1,-3, 2}
+
+Output  should be {1, -1, 2, -2, -3,3}.  
+
+What is approach .
+
+7 . If I say that POM model is a big failure, will you agree with the statement. If yes, then then what are the drawbacks. If no then  what are good things explain ?
+
+Can anyone help me on these. Hope someone will provide the answers
+
+8 what is maven and how it is helpful to the project  ? What are the advantages of using Maven ?
+
+8 what is Jenkins and what is the use ?
