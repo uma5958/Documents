@@ -1,0 +1,21 @@
+Quesions asked in consultancy  screeing round 
+
+1)Difference between HashTable and HashMap
+
+ 2)Difference between String builder and String buffer 
+
+3)DOM structure 
+
+4)How do you handle Ajax calls 
+
+5)What is cucumber options 
+
+6)Difference between Bug leakage and bug release 
+
+7)How do you do quality audit 
+
+8)What is POM 
+
+9)How do you handle captcha? 
+
+10)Difference between dr.getwindowhandle and dr.getwindowhandles

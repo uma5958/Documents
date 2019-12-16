@@ -1,0 +1,16 @@
+How to log bug in Jira Tool
+===================
+1. Select the project 
+2. Choose the Issue type (Bug, Task, Story , Epic )
+3. Enter the summary
+4. Select the Assignee
+5. Choose the Bug type (Functional & UI)
+6. Set the priority
+7. Set the severity
+8. select the environment (QA / UAT / Production )
+9. Select the components
+10. Choose the platform ( Android /iOS / Web ) 
+11. Label (If any)
+12. Enter the description 
+13. Attachment (Screenshot)
+14. Click on create button

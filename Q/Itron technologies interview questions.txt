@@ -1,0 +1,37 @@
+Itron technologies interview questions.
+
+1. What is the use of @beforesuite and @aftesuite annotations in testing. What is the use. ?
+
+2 what is polymorphism, where you have used in your framework . With example.
+
+3 what is encapsulation, where you have used in your framework work.
+
+4 what is generics and what is singleton.
+
+5 in a class there is a method display and in the child class there is a display method.. child is extending parent class..
+
+If we create reference of parent and object of child. If I call the display method which method it will be called.. ?
+
+If I call the method with parent class name. Display (). What will the output.(method is a non static method).
+
+6 How will you resolve the git conflict (apart from code correction), is there any any solution to resolve this.
+
+7 in the extend report I want only the details of login how will you provide...(in that file there are 100 testcases, I want report only for 25) how will you provide 
+
+8 what is the use of AJAX.
+
+9 how will you perform parallel test execution and why we are writing parallel = methods in testing.xml. ?
+
+10 which selenium version you are using in your framework.
+
+11. How will you make wait as common. What is the code..
+
+12. If we don't pass the driver reference in the object, what will happen.
+
+13 if you HTML dom is changing dynamically, how will you manage to fix that ?
+
+14 Leela has a string s, if she gives 10 as an input.it should print abcabcabca.
+
+If she give 5 then it should print abcab.
+
+These are the questions they asked.
