@@ -1,0 +1,49 @@
+My name is Uma maheswararao,
+-> I belongs to Andhra Pradesh.
+-> I am graduate in Electronics & communications engineering from JNTUK.
+-> I am carrying around 5 years of experience in Software Testing Industry. 
+-> Currently I am working in Valuechain Enterprise as Sr.Software Engineer(Testing).
+-> Since last 2 years I am working in Valuechain.
+-> Prior working with Valuechain I worked with Smartried Software Technologies Pvt. Ltd. for 3.4 yrs years as Software Testing Engineer.
+
+-> Valuechain is a UK based software product company, provides smart manufacturing solutions, Aerospace ERPs, Business Intelligence, Advanced Datacapture, Auditing Softwares and Intelligence Clustering platforms.
+-> Here, I'm responsible for Automating the web applications.
+-> We follow Agile-scrum process, our every sprint durations is 2 weeks. Before starting the sprint we will be having a Planning meeting, in that our development manager explains about the user stories which are going to implement in the coming sprint. And will prioritize the issues to be fixed in the backlog. 
+-> Whenever new changes applied to test server, we will run automation suite against all apps, will analyse the reports, for all UI changes will modify the scripts and for functional deviations will raise the issues in JIRA at backlog section. If there are any critical issues are there, will raise them in emergency cloumn in current sprint.
+-> If we need any clarifications about any issues will discuss all of them in the respective meetings.
+
+
+
+
+Format:
+*******
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
