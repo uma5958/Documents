@@ -1,0 +1,115 @@
+url-> https://test.valuechain.com/Login
+
+html code:
+==========
+<input id="txtLoginName" class="form-control form-control-solid placeholder-no-fix form-group" type="text" autocomplete="off" value="" placeholder="Email" name="username" required="">
+
+input -> tagName
+
+id, class, type, name, value, etc. -> Attributes
+
+txtLoginName -> value of id attribute 
+text -> value of type attribute
+username -> value of name attribute
+
+<button id="btnLogin" class="btn green" type="button" onclick="LoginIn()" style="background-color:#5FA7F9;width:160px;">Sign In</button>
+
+-> Element present in between angular brackets <>Sign In<>
+Sign In -> Element text
+
+Absolute xpath:
+==============
+/ -> Absolute or immediate child 
+
+/html/head/link -> Absolute => 12 link
+
+// -> Any child
+
+//link -> Relative 
+
+email field & password
+/html/body/div/div/div/div/form/div/div/input -> 2 matching nodes (email & password)
+
+Email field: using index of that required element
+(/html/body/div/div/div/div/form/div/div/input)[1] -> Absolute xpath
+
+password field:
+(/html/body/div/div/div/div/form/div/div/input)[2] -> Absolute xpath
+
+Using last() method:
+(/html/body/div/div/div/div/form/div/div/input)[last()] -> password
+(/html/body/div/div/div/div/form/div/div/input)[last()-1] -> email
+
+Reletive xpath:     
+===============
+Syntax: //tagname[@attribute='value']  -> Using single attribute
+Syntax: //tagname[@attribute='value'][@attribute='value']  -> Using Multiple attribute
+Syntax: //tagname[contains(@attribute,'value')] -> contains() method
+Syntax: //tagname[text()='textOnUI'] -> text() method
+Systax: //tagname[contains(text(),'textOnUI')] 
+Syntax: //tagname[contains(text(),'textOnUI')]//following::tagname[1] -> To identify current element using previous element
+Syntax: //input[@id='txtPassword']//preceding::input[1] -> To identify current element using next element
+Systax: /.. -> To go immediate parent
+Syntax: /parent::tagname -> To go immediate parent
+Syntax: /child::tagname -> To go immediate child
+Systax: (//h1[contains(.,'Login')]/..//following-sibling::input)[1] -> To identify the child element in the same dom
+Syntax: //input[@id='txtPassword']/../preceding-sibling::div[1]//following-sibling::input[1] -> To identifying preceding childs of common parent
+Syntax: //input[@id='txtPassword']//ancestor::div[@class='login-content']/h1 -> Ancestor is to identify any parent from any child
+Syntax: //tagname[starts-with(@attribute, 'startingvalue')] -> Identifying element by starting value of attribute 
+Syntax: //tagname[ends-with(@attribute, 'endingvalue')] -> Identifying element by ending value of attribute 
+Syntax: //tagname[normalize-space(text())='text']
+-> To read text from un-ending input tag we should use immediate parent attributes to read the text
+
+Email field:
+***********
+1) //input[@id='txtLoginName']
+2) //input[@name='username']
+3) //input[@type='text']
+4) (//input)[1]
+5) //input[@name='username'][@id='txtLoginName'] -> Multiple attributes
+6) //input[@name='username'][@id='txtLoginName'][@type='text'] -> Multiple attributes
+7) //input[@id='txtLoginName' or @name='username'] -> Using OR operator
+8) //input[@id='txtLoginName' and @name='username'] -> Using AND operator
+
+=> id="txtLoginName"
+
+9) //input[contains(@id, 'txtLoginName')] -> Using contains attribute value
+10) //input[contains(@id, 'txtLogin')] -> Using contains attribute value from beginning
+11) //input[contains(@id, 'LoginName')] -> Using contains attribute value at end
+12) //input[contains(@id, 'Login')] -> Using contains attribute value in the middle
+13) //input[contains(@id, 'txtName')] -> attribute value beginning text and ending text => Not allowed - wrong
+14) //h1[text()='Login'] -> Login Plain text or visible text on UI -> Using text() method
+15) //h1[contains(text(), 'Login')] -> Login Plain text or visible text on UI -> Using contains() method 
+16) //h1[contains(text(), 'Login')]//following::input[1] -> Identifying email field using previous element
+17) //input[@id='txtPassword']//preceding::input[1] -> Identifying email field using next element
+18) (//h1[contains(.,'Login')]/..//following-sibling::input)[1] -> Identifying email field using Login text
+19) //input[@id='txtPassword']/../preceding-sibling::div[1]//following-sibling::input[1] -> Identifying password using email field
+20) //input[@id='txtPassword']/parent::div/child::input -> Identifying password using parent and child combinations
+21) //input[@id='txtPassword']//ancestor::div[@class='login-content']/h1 -> Identifying Login text from password using ancestor
+22) //input[starts-with(@id, 'txtLogin')] -> Identifying email field using starting part of attribute value
+23) //button[normalize-space(text())='Sign In'] -> Identifying Sign In button by trimming starting and ending spaces of text
+    //input[normalize-space(@id)='txtLoginName'] -> Identifying Sign In button by trimming starting and ending spaces of any attribute
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
